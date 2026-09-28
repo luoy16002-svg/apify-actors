@@ -1,0 +1,11 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Actor results",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Results dataset",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?format=json&clean=true"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Pret A Manger",
+  "address": "London",
+  "localAuthorityId": 0,
+  "businessTypeId": 0,
+  "maxItems": 20,
+  "pageSize": 100,
+  "maxPages": 100,
+  "requestDelaySeconds": 1.2,
+  "proxyConfiguration": {
+    "useApifyProxy": false
+  }
+}

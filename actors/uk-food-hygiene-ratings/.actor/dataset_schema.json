@@ -1,0 +1,212 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "type": "object",
+    "properties": {
+      "fhrsId": {
+        "type": "string"
+      },
+      "businessName": {
+        "type": "string"
+      },
+      "businessType": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "address": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "postcode": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "rating": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "ratingDate": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date"
+      },
+      "ratingKey": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "schemeType": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "localAuthorityName": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "localAuthorityCode": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "sourceUrl": {
+        "type": "string",
+        "format": "uri"
+      },
+      "sourceExtractedAt": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "fetchedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "dataSource": {
+        "type": "string"
+      },
+      "licenseUrl": {
+        "type": "string",
+        "format": "uri"
+      },
+      "businessTypeId": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "hygieneScore": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "structuralScore": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "managementScore": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "latitude": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "longitude": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "newRatingPending": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "fhrsId",
+      "businessName",
+      "businessType",
+      "address",
+      "postcode",
+      "rating",
+      "ratingDate",
+      "ratingKey",
+      "schemeType",
+      "localAuthorityName",
+      "localAuthorityCode",
+      "sourceUrl",
+      "sourceExtractedAt",
+      "fetchedAt",
+      "dataSource",
+      "licenseUrl",
+      "businessTypeId",
+      "hygieneScore",
+      "structuralScore",
+      "managementScore",
+      "latitude",
+      "longitude",
+      "newRatingPending"
+    ],
+    "additionalProperties": false
+  },
+  "views": {
+    "overview": {
+      "title": "Results",
+      "transformation": {
+        "fields": [
+          "businessName",
+          "businessType",
+          "postcode",
+          "rating",
+          "ratingDate",
+          "schemeType",
+          "localAuthorityName",
+          "sourceUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "businessName": {
+            "label": "businessName",
+            "format": "text"
+          },
+          "businessType": {
+            "label": "businessType",
+            "format": "text"
+          },
+          "postcode": {
+            "label": "postcode",
+            "format": "text"
+          },
+          "rating": {
+            "label": "rating",
+            "format": "text"
+          },
+          "ratingDate": {
+            "label": "ratingDate",
+            "format": "text"
+          },
+          "schemeType": {
+            "label": "schemeType",
+            "format": "text"
+          },
+          "localAuthorityName": {
+            "label": "localAuthorityName",
+            "format": "text"
+          },
+          "sourceUrl": {
+            "label": "sourceUrl",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "categories": {
+      "commitment": "Permanent",
+      "department": "Engineering",
+      "location": "London",
+      "team": "Experience",
+      "allLocations": [
+        "London",
+        "Stockholm"
+      ]
+    },
+    "createdAt": 1782214185805,
+    "id": "2193db3f-77c5-43b8-b030-8f92c9882bf1",
+    "text": "Android Engineer - Experience",
+    "country": "GB",
+    "workplaceType": "hybrid",
+    "hostedUrl": "https://jobs.lever.co/spotify/2193db3f-77c5-43b8-b030-8f92c9882bf1",
+    "applyUrl": "https://jobs.lever.co/spotify/2193db3f-77c5-43b8-b030-8f92c9882bf1/apply"
+  },
+  {
+    "categories": {
+      "commitment": "Short Term",
+      "department": "Content",
+      "location": "Ho Chi Minh",
+      "team": "Music Business",
+      "allLocations": [
+        "Ho Chi Minh"
+      ]
+    },
+    "createdAt": 1787802187805,
+    "id": "d87833d0-fb78-4794-b45d-3fe5c8274bc8",
+    "text": "Artist & Label Partnerships Contractor, Vietnam",
+    "country": "VN",
+    "workplaceType": "hybrid",
+    "hostedUrl": "https://jobs.lever.co/spotify/d87833d0-fb78-4794-b45d-3fe5c8274bc8",
+    "applyUrl": "https://jobs.lever.co/spotify/d87833d0-fb78-4794-b45d-3fe5c8274bc8/apply"
+  },
+  {
+    "categories": {
+      "commitment": "Permanent",
+      "department": "Content",
+      "location": "Dubai",
+      "team": "Music Business",
+      "allLocations": [
+        "Dubai"
+      ]
+    },
+    "createdAt": 1786555138306,
+    "id": "ddb5dfa9-c5ef-4199-bd19-c179af568cc8",
+    "text": "Artist & Label Partnerships Manager, Maghreb",
+    "country": "AE",
+    "workplaceType": "onsite",
+    "hostedUrl": "https://jobs.lever.co/spotify/ddb5dfa9-c5ef-4199-bd19-c179af568cc8",
+    "applyUrl": "https://jobs.lever.co/spotify/ddb5dfa9-c5ef-4199-bd19-c179af568cc8/apply"
+  }
+]
