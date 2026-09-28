@@ -74,9 +74,9 @@ Here is one complete record from the live test. This source job did not provide 
 
 ## Pricing
 
-**Publisher configuration pending.** Suggested launch price: **$1.00 per 1,000 saved jobs**, plus a **$0.00005 run-start event** at default memory. Confirm the final Store pricing tab before running.
+**Free during launch:** you only pay Apify's normal platform usage, which is a fraction of a cent for a typical run. Paid pricing may be introduced later (about $1.00 per 1,000 saved jobs); Apify announces any change on the Store pricing tab at least 14 days in advance.
 
-Only unique matching jobs saved to the dataset are billed as results. Excluded jobs and duplicates do not generate result events. A proposed 100-result run costs $0.10005 in events. Public source data is free; the price covers this extraction and normalization service. Rows already saved may remain billable if a later source request fails.
+Only unique matching jobs are saved; excluded jobs and duplicates are dropped before saving.
 
 ## FAQ and limitations
 
