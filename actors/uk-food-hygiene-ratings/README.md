@@ -71,9 +71,9 @@ The following is one complete record from the small live test. It is a dated exa
 
 ## Pricing
 
-**Publisher configuration pending.** Suggested launch price: **$0.80 per 1,000 saved businesses**, plus a **$0.00005 run-start event** at the default memory setting. Final prices will be shown in the Store pricing tab before a run.
+**Free during launch:** you only pay Apify's normal platform usage, which is a fraction of a cent for a typical run. Paid pricing may be introduced later (about $0.80 per 1,000 saved businesses); Apify announces any change on the Store pricing tab at least 14 days in advance.
 
-One saved unique establishment is one billable result. Duplicate records are discarded before saving. A 100-result run would have a proposed event price of $0.08005. The source data is free; the charge is for running this extraction and normalization service. Previously saved results can remain billable if a later request fails.
+Duplicate records are discarded before saving.
 
 ## FAQ and limitations
 
