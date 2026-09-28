@@ -1,0 +1,123 @@
+{
+  "title": "Lever Jobs - Live Metadata and Published Salaries",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "boards": {
+      "title": "Lever board slugs",
+      "description": "For jobs.lever.co/spotify enter spotify. Enter up to 25 board slugs; no automatic company discovery.",
+      "type": "array",
+      "editor": "stringList",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,99}$"
+      },
+      "minItems": 1,
+      "maxItems": 25,
+      "default": [
+        "spotify"
+      ],
+      "prefill": [
+        "spotify"
+      ]
+    },
+    "region": {
+      "title": "Lever hosting region",
+      "description": "Global for jobs.lever.co; EU for jobs.eu.lever.co. All boards in a run use the same region.",
+      "type": "string",
+      "editor": "select",
+      "default": "global",
+      "enum": [
+        "global",
+        "eu"
+      ],
+      "enumTitles": [
+        "Global",
+        "EU"
+      ]
+    },
+    "titleContains": {
+      "title": "Title contains",
+      "description": "Optional case-insensitive literal text filter. Applied before billing.",
+      "type": "string",
+      "editor": "textfield",
+      "default": ""
+    },
+    "locationContains": {
+      "title": "Location contains",
+      "description": "Optional case-insensitive literal text filter over all published locations.",
+      "type": "string",
+      "editor": "textfield",
+      "default": ""
+    },
+    "workplaceType": {
+      "title": "Workplace type",
+      "description": "Filter on the source field. Unknown values never qualify as remote.",
+      "type": "string",
+      "editor": "select",
+      "default": "any",
+      "enum": [
+        "any",
+        "remote",
+        "hybrid",
+        "onsite"
+      ],
+      "enumTitles": [
+        "Any",
+        "Remote",
+        "Hybrid",
+        "On site"
+      ]
+    },
+    "maxItems": {
+      "title": "Maximum results",
+      "description": "Maximum unique records saved and billed across this run.",
+      "type": "integer",
+      "editor": "number",
+      "default": 20,
+      "minimum": 1,
+      "maximum": 10000,
+      "prefill": 20
+    },
+    "pageSize": {
+      "title": "Source page size",
+      "description": "At most 100 source records per request; also capped by maxItems.",
+      "type": "integer",
+      "editor": "number",
+      "default": 100,
+      "minimum": 1,
+      "maximum": 100
+    },
+    "maxPages": {
+      "title": "Maximum source pages",
+      "description": "Stop after this many pages, even if filters find fewer results. Includes empty pages.",
+      "type": "integer",
+      "editor": "number",
+      "default": 100,
+      "minimum": 1,
+      "maximum": 500
+    },
+    "requestDelaySeconds": {
+      "title": "Request interval (seconds)",
+      "description": "Minimum interval between all requests. A longer robots.txt delay takes precedence.",
+      "type": "number",
+      "editor": "number",
+      "default": 1.2,
+      "minimum": 1,
+      "maximum": 60
+    },
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "description": "Off by default. Optional Apify Proxy requires your Apify account configuration. Proxies never override robots.txt or access restrictions.",
+      "type": "object",
+      "editor": "proxy",
+      "default": {
+        "useApifyProxy": false
+      },
+      "prefill": {
+        "useApifyProxy": false
+      }
+    }
+  },
+  "required": []
+}

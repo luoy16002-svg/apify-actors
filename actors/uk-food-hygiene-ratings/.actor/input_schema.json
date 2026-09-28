@@ -1,0 +1,91 @@
+{
+  "title": "UK Food Hygiene Ratings - FSA Business Data",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "name": {
+      "title": "Business name",
+      "description": "Name to search; clear this for all businesses in your selected area.",
+      "type": "string",
+      "editor": "textfield",
+      "default": "Pret A Manger",
+      "prefill": "Pret A Manger"
+    },
+    "address": {
+      "title": "Town, address or postcode",
+      "description": "Address search sent to the FSA. Clear this to search all areas.",
+      "type": "string",
+      "editor": "textfield",
+      "default": "London",
+      "prefill": "London"
+    },
+    "localAuthorityId": {
+      "title": "Local authority ID",
+      "description": "Optional numeric FSA API local authority ID; 0 means no filter. This is not localAuthorityCode.",
+      "type": "integer",
+      "editor": "number",
+      "default": 0,
+      "minimum": 0,
+      "maximum": 10000
+    },
+    "businessTypeId": {
+      "title": "Business type ID",
+      "description": "Optional numeric FSA business type ID; 0 means no filter. Restaurant/Cafe/Canteen is 1.",
+      "type": "integer",
+      "editor": "number",
+      "default": 0,
+      "minimum": 0,
+      "maximum": 100000
+    },
+    "maxItems": {
+      "title": "Maximum results",
+      "description": "Maximum unique records saved and billed across this run.",
+      "type": "integer",
+      "editor": "number",
+      "default": 20,
+      "minimum": 1,
+      "maximum": 10000,
+      "prefill": 20
+    },
+    "pageSize": {
+      "title": "Source page size",
+      "description": "At most 100 source records per request; also capped by maxItems.",
+      "type": "integer",
+      "editor": "number",
+      "default": 100,
+      "minimum": 1,
+      "maximum": 100
+    },
+    "maxPages": {
+      "title": "Maximum source pages",
+      "description": "Stop after this many pages, even if filters find fewer results. Includes empty pages.",
+      "type": "integer",
+      "editor": "number",
+      "default": 100,
+      "minimum": 1,
+      "maximum": 500
+    },
+    "requestDelaySeconds": {
+      "title": "Request interval (seconds)",
+      "description": "Minimum interval between all requests. A longer robots.txt delay takes precedence.",
+      "type": "number",
+      "editor": "number",
+      "default": 1.2,
+      "minimum": 1,
+      "maximum": 60
+    },
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "description": "Off by default. Optional Apify Proxy requires your Apify account configuration. Proxies never override robots.txt or access restrictions.",
+      "type": "object",
+      "editor": "proxy",
+      "default": {
+        "useApifyProxy": false
+      },
+      "prefill": {
+        "useApifyProxy": false
+      }
+    }
+  },
+  "required": []
+}

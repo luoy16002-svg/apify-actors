@@ -1,0 +1,19 @@
+{
+  "actorSpecification": 1,
+  "name": "lever-job-metadata",
+  "title": "Lever Jobs - Live Metadata and Published Salaries",
+  "description": "Fetch current jobs from the Lever boards you choose. Filter by title, location and workplace type. Export clean metadata, published salary ranges and source links from the public API. Supports global and EU boards.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "dockerfile": "../Dockerfile",
+  "dockerContextDir": "..",
+  "readme": "../README.md",
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "defaultMemoryMbytes": 256,
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 512
+}

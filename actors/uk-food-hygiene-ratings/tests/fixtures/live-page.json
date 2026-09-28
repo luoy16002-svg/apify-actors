@@ -1,0 +1,129 @@
+{
+  "establishments": [
+    {
+      "AddressLine1": "London City Airport",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "AddressLine4": "",
+      "BusinessName": "Pret A Manger",
+      "BusinessType": "Takeaway/sandwich shop",
+      "BusinessTypeID": 7844,
+      "ChangesByServerID": 0,
+      "Distance": null,
+      "FHRSID": 902473,
+      "LocalAuthorityBusinessID": "PI/000029852",
+      "LocalAuthorityCode": "508",
+      "LocalAuthorityName": "City of London Corporation",
+      "LocalAuthorityWebSite": "http://www.cityoflondon.gov.uk/Corporation/homepage.htm",
+      "NewRatingPending": false,
+      "PostCode": "E16 2PX",
+      "RatingDate": "2026-03-24T00:00:00",
+      "RatingKey": "fhrs_4_en-gb",
+      "RatingValue": "4",
+      "SchemeType": "FHRS",
+      "geocode": {
+        "longitude": null,
+        "latitude": null
+      },
+      "scores": {
+        "Hygiene": 10,
+        "Structural": 5,
+        "ConfidenceInManagement": 5
+      }
+    },
+    {
+      "AddressLine1": "Unit 2033",
+      "AddressLine2": "Westfield London Shopping Centre",
+      "AddressLine3": "Ariel Way",
+      "AddressLine4": "London",
+      "BusinessName": "Pret A Manger",
+      "BusinessType": "Restaurant/Cafe/Canteen",
+      "BusinessTypeID": 1,
+      "ChangesByServerID": 0,
+      "Distance": null,
+      "FHRSID": 346519,
+      "LocalAuthorityBusinessID": "2011/00069/COMB",
+      "LocalAuthorityCode": "513",
+      "LocalAuthorityName": "Hammersmith and Fulham",
+      "LocalAuthorityWebSite": "http://www.lbhf.gov.uk",
+      "NewRatingPending": false,
+      "PostCode": "W12 7GF",
+      "RatingDate": "2025-08-12T00:00:00",
+      "RatingKey": "fhrs_5_en-gb",
+      "RatingValue": "5",
+      "SchemeType": "FHRS",
+      "geocode": {
+        "longitude": "-0.223254",
+        "latitude": "51.507212"
+      },
+      "scores": {
+        "Hygiene": 5,
+        "Structural": 5,
+        "ConfidenceInManagement": 5
+      }
+    },
+    {
+      "AddressLine1": "Unit SU2203A",
+      "AddressLine2": "Westfield London Shopping Centre",
+      "AddressLine3": "Ariel Way",
+      "AddressLine4": "London",
+      "BusinessName": "Pret A Manger",
+      "BusinessType": "Restaurant/Cafe/Canteen",
+      "BusinessTypeID": 1,
+      "ChangesByServerID": 0,
+      "Distance": null,
+      "FHRSID": 1035152,
+      "LocalAuthorityBusinessID": "2018/00046/COMB",
+      "LocalAuthorityCode": "513",
+      "LocalAuthorityName": "Hammersmith and Fulham",
+      "LocalAuthorityWebSite": "http://www.lbhf.gov.uk",
+      "NewRatingPending": false,
+      "PostCode": "W12 7HT",
+      "RatingDate": "2025-06-04T00:00:00",
+      "RatingKey": "fhrs_5_en-gb",
+      "RatingValue": "5",
+      "SchemeType": "FHRS",
+      "geocode": {
+        "longitude": "-0.221717000007629",
+        "latitude": "51.5101013183594"
+      },
+      "scores": {
+        "Hygiene": 0,
+        "Structural": 5,
+        "ConfidenceInManagement": 0
+      }
+    }
+  ],
+  "meta": {
+    "dataSource": "ElasticSearch",
+    "extractDate": "2026-09-28T23:31:30.3147093+01:00",
+    "itemCount": 3,
+    "returncode": "OK",
+    "totalCount": 259,
+    "totalPages": 87,
+    "pageSize": 3,
+    "pageNumber": 1
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.ratings.food.gov.uk/establishments?name=pret%20a%20manger&address=london&pagenumber=1&pagesize=3"
+    },
+    {
+      "rel": "first",
+      "href": "https://api.ratings.food.gov.uk:443/establishments?name=pret+a+manger&address=london&pagenumber=1&pagesize=3"
+    },
+    {
+      "rel": "previous",
+      "href": "https://api.ratings.food.gov.uk:443/establishments?name=pret+a+manger&address=london&pagenumber=1&pagesize=3"
+    },
+    {
+      "rel": "next",
+      "href": "https://api.ratings.food.gov.uk:443/establishments?name=pret+a+manger&address=london&pagenumber=2&pagesize=3"
+    },
+    {
+      "rel": "last",
+      "href": "https://api.ratings.food.gov.uk:443/establishments?name=pret+a+manger&address=london&pagenumber=87&pagesize=3"
+    }
+  ]
+}

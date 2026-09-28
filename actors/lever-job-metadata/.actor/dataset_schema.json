@@ -1,0 +1,188 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "type": "object",
+    "properties": {
+      "jobId": {
+        "type": "string"
+      },
+      "board": {
+        "type": "string"
+      },
+      "region": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "department": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "team": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "employmentType": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "location": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "allLocations": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "countryCode": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "workplaceType": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "salaryCurrency": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "salaryInterval": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "createdAt": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date-time"
+      },
+      "sourceUrl": {
+        "type": "string",
+        "format": "uri"
+      },
+      "applyUrl": {
+        "type": "string",
+        "format": "uri"
+      },
+      "fetchedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "salaryMin": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "salaryMax": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "isRemote": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "jobId",
+      "board",
+      "region",
+      "title",
+      "department",
+      "team",
+      "employmentType",
+      "location",
+      "allLocations",
+      "countryCode",
+      "workplaceType",
+      "salaryCurrency",
+      "salaryInterval",
+      "createdAt",
+      "sourceUrl",
+      "applyUrl",
+      "fetchedAt",
+      "salaryMin",
+      "salaryMax",
+      "isRemote"
+    ],
+    "additionalProperties": false
+  },
+  "views": {
+    "overview": {
+      "title": "Results",
+      "transformation": {
+        "fields": [
+          "title",
+          "board",
+          "location",
+          "workplaceType",
+          "salaryMin",
+          "salaryMax",
+          "salaryCurrency",
+          "sourceUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "title": {
+            "label": "title",
+            "format": "text"
+          },
+          "board": {
+            "label": "board",
+            "format": "text"
+          },
+          "location": {
+            "label": "location",
+            "format": "text"
+          },
+          "workplaceType": {
+            "label": "workplaceType",
+            "format": "text"
+          },
+          "salaryMin": {
+            "label": "salaryMin",
+            "format": "number"
+          },
+          "salaryMax": {
+            "label": "salaryMax",
+            "format": "number"
+          },
+          "salaryCurrency": {
+            "label": "salaryCurrency",
+            "format": "text"
+          },
+          "sourceUrl": {
+            "label": "sourceUrl",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}

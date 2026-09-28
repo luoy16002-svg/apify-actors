@@ -1,0 +1,16 @@
+{
+  "boards": [
+    "spotify"
+  ],
+  "region": "global",
+  "titleContains": "",
+  "locationContains": "",
+  "workplaceType": "any",
+  "maxItems": 3,
+  "pageSize": 2,
+  "maxPages": 3,
+  "requestDelaySeconds": 1.2,
+  "proxyConfiguration": {
+    "useApifyProxy": false
+  }
+}
