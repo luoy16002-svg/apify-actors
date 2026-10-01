@@ -208,7 +208,7 @@ def test_paid_budget_never_exceeded(budget):
     assert len(actor.rows) == sink.count == budget
 
 
-@pytest.mark.parametrize('data', [[], {'maxItems': True}, {'maxItems': 0}, {'pageSize': 101},
+@pytest.mark.parametrize('data', [[], {'maxItems': True}, {'maxItems': 0}, {'pageSize': 5001},
                                 {'maxPages': 0}, {'requestDelaySeconds': float('nan')},
                                 {'requestDelaySeconds': .5}, {'proxyConfiguration': []}])
 def test_invalid_common_input(data):

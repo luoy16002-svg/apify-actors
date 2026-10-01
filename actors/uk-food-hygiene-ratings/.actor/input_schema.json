@@ -47,12 +47,12 @@
     },
     "pageSize": {
       "title": "Source page size",
-      "description": "At most 100 source records per request; also capped by maxItems.",
+      "description": "Records per FSA request, at most 5,000; also capped by maxItems. Keep it large: the FSA's order shifts between small pages, which loses rows.",
       "type": "integer",
       "editor": "number",
-      "default": 100,
+      "default": 5000,
       "minimum": 1,
-      "maximum": 100
+      "maximum": 5000
     },
     "maxPages": {
       "title": "Maximum source pages",
