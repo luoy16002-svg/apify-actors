@@ -69,7 +69,8 @@ guessed or parsed, so many rows have empty salary fields. `isRemote` is `null` w
 
 ## Pricing
 
-$2.00 per 1,000 saved jobs, plus a tiny start fee per run. Filtered-out jobs and duplicates are free.
+$2.00 per 1,000 saved jobs on the Free plan, $1.80 on Starter, $1.50 on Scale and $1.20 on Business. Filtered-out
+jobs and duplicates are free, and there is no start fee.
 
 ## FAQ
 
