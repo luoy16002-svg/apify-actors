@@ -1,100 +1,83 @@
 # UK Food Hygiene Ratings - FSA Business Data
 
-Export food-business ratings from the Food Standards Agency's public API. Search by business name, town, address, postcode, local authority or business type, and download a flat dataset in JSON, CSV or Excel.
+Look up official food hygiene ratings for UK restaurants, cafes, takeaways, shops and other food businesses. Search
+by business name, town, address or postcode, council or business type, and download the results as JSON, CSV or
+Excel.
 
-Use it to maintain restaurant directories, check supplier records, compare branches and prepare hospitality market research. Each result includes the inspection date, source extraction timestamp and a link to the original business record.
+Handy for restaurant directories and review sites, checking suppliers, comparing branches of a chain, or local
+market research. Every row carries the inspection date and a link to the business's page on the FSA ratings site.
+Data comes from the Food Standards Agency's public ratings API.
 
-## Start a run
-
-The default input searches for Pret A Manger in London and returns up to 20 businesses. Click **Start** without changing the input to try it.
+## Quick start
 
 ```json
 {
   "name": "Pret A Manger",
   "address": "London",
-  "maxItems": 20,
-  "proxyConfiguration": { "useApifyProxy": false }
+  "maxItems": 100
 }
 ```
 
-Clear `name` or `address` with an empty string to remove that filter. A supplied `localAuthorityId` or `businessTypeId` is combined with the other filters.
+Leave `name` empty to get every business in an area, or leave `address` empty to search a name nationwide.
 
 ## Input
 
-| Field | Default | Meaning |
+| Field | Default | What it does |
 | --- | --- | --- |
-| `name` | `Pret A Manger` | Business-name search. Empty means any name. |
-| `address` | `London` | Town, address or postcode search. Empty means any area. |
-| `localAuthorityId` | `0` | Optional FSA authority ID; zero disables this filter. This differs from an authority's published code. |
-| `businessTypeId` | `0` | Optional FSA business-type ID. Restaurant/Cafe/Canteen is `1`. |
-| `maxItems` | `20` | Maximum unique output records, 1–10,000. |
-| `pageSize` | `100` | Records per source request, 1–100; also capped by `maxItems`. |
-| `maxPages` | `100` | Maximum source pages, 1–500. May return fewer than `maxItems`. |
-| `requestDelaySeconds` | `1.2` | Minimum request interval, 1–60 seconds. |
-| `proxyConfiguration` | Proxy off | Optional Apify/custom proxy. A proxy is not required by the source. |
+| `name` | `Pret A Manger` | Business name to search. Empty means any name. |
+| `address` | `London` | Town, address or postcode. Empty means anywhere. |
+| `localAuthorityId` | `0` | Optional council filter using the FSA's authority ID (0 = off). |
+| `businessTypeId` | `0` | Optional business type filter, e.g. `1` for Restaurant/Cafe/Canteen (0 = off). |
+| `maxItems` | `20` | Stop after this many businesses (up to 10,000). |
+| `proxyConfiguration` | off | Not needed. |
 
-Authority and business-type identifiers are listed in the [official API index](https://api.ratings.food.gov.uk/Help/Index/). Searches use the FSA's own matching behavior; an address term is not a geographic boundary.
+Council and business type IDs are listed in the [FSA API reference](https://api.ratings.food.gov.uk/Help/Index/).
+The address search uses the FSA's own matching, so it is a text match rather than an exact map boundary.
 
 ## Output
 
-One row represents one establishment, identified by the string `fhrsId`. Optional unavailable fields are `null`. Ratings stay strings so values such as `Pass`, `Exempt` and `AwaitingInspection` retain their meaning. Scores and coordinates are numeric; zero scores are preserved. The dataset contains no email or telephone fields.
-
-The following is one complete record from the small live test. It is a dated example, not a statement of the business's current rating. The full three-record sample is in `sample-output.json`.
+One row per business. Example:
 
 ```json
 {
   "fhrsId": "902473",
   "businessName": "Pret A Manger",
   "businessType": "Takeaway/sandwich shop",
-  "businessTypeId": 7844,
   "address": "London City Airport, London",
   "postcode": "E16 2PX",
   "rating": "4",
   "ratingDate": "2026-03-24",
-  "ratingKey": "fhrs_4_en-gb",
   "schemeType": "FHRS",
   "newRatingPending": false,
   "hygieneScore": 10,
   "structuralScore": 5,
   "managementScore": 5,
   "localAuthorityName": "City of London Corporation",
-  "localAuthorityCode": "508",
   "latitude": null,
   "longitude": null,
   "sourceUrl": "https://ratings.food.gov.uk/business/902473",
-  "sourceExtractedAt": "2026-09-28T23:50:27.8192558+01:00",
   "fetchedAt": "2026-09-28T22:50:30Z",
-  "dataSource": "Food Standards Agency",
-  "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+  "dataSource": "Food Standards Agency"
 }
 ```
 
+Ratings are kept as text because Scotland's scheme uses words such as `Pass` and `Improvement Required`, and some
+businesses show `Exempt` or `AwaitingInspection`. For the sub-scores, lower is better (0 is the best).
+
 ## Pricing
 
-**Free during launch:** you only pay Apify's normal platform usage, which is a fraction of a cent for a typical run. Paid pricing may be introduced later (about $0.80 per 1,000 saved businesses); Apify announces any change on the Store pricing tab at least 14 days in advance.
+$0.80 per 1,000 businesses, plus a tiny start fee per run. Duplicates are free.
 
-Duplicate records are discarded before saving.
+## FAQ
 
-## FAQ and limitations
+**Is this the current rating?** It is the rating the FSA publishes at the time of your run, with its inspection
+date. Ratings change after new inspections, so re-run for fresh data.
 
-**Do I need an FSA account or API key?** No. The [official API](https://api.ratings.food.gov.uk/help) currently provides access without registration.
+**Why are some coordinates empty?** The FSA doesn't publish a location for every business.
 
-**Does a rating describe the business today?** It describes the recorded inspection. Keep `ratingDate`, `sourceExtractedAt` and `fetchedAt` with downstream copies, and consult `sourceUrl` for current information.
+**Can I use the data commercially?** FSA data is published under the Open Government Licence v3.0. Credit the Food
+Standards Agency and keep the source links. This actor is not affiliated with the FSA.
 
-**Why are some ratings text rather than numbers?** The API includes different schemes and non-numeric statuses. Read `schemeType` and `rating` together; do not compare an FHIS label numerically with an FHRS rating.
+## Responsible use
 
-**Why are fewer rows returned?** The search may have fewer matches, `maxPages` or the Apify spending limit may be reached, or malformed source records may be skipped. `RUN_STATS` in the key-value store records counts and the stopping reason. A changed response format or repeated page fails visibly rather than pretending the result is complete.
-
-**Can I export the whole country every day?** This actor is for bounded searches. The FSA recommends its [nightly open-data files](https://api.ratings.food.gov.uk/Help/BestPractices) for regular full downloads. This actor uses one request at a time and pages of at most 100. Offset pagination over a changing source cannot guarantee a complete point-in-time snapshot.
-
-**Does it track changes between runs?** Each run is a fresh snapshot. Join successive exports on `fhrsId` in your own workflow. Deduplication applies within one uninterrupted run; automatic resume after a restart is not provided.
-
-## Responsible use and attribution
-
-Contains Food Standards Agency information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Preserve source attribution and dates when sharing data. This actor is independent of the FSA and uses no FSA logos or rating imagery. Follow the [FSA reuse terms](https://www.food.gov.uk/terms-and-conditions).
-
-Use business records responsibly. Do not infer or recover withheld addresses or personal contact information. Robots.txt is checked at runtime; denied paths, ambiguous policies and access failures stop the run. Retries are limited to temporary errors. Proxy settings do not change these rules.
-
-## Local development
-
-Requires Python 3.13. Install `requirements-dev.txt` in a virtual environment, then run `python -m pytest -q` and `python -m src --input test-input.json` from this actor directory. Local SDK storage stays in the ignored `storage/` directory. See `TESTING.md` for the recorded commands and results.
+The actor sends one request at a time, checks robots.txt and backs off on errors.
