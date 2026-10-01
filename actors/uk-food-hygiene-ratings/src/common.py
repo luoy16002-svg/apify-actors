@@ -97,7 +97,7 @@ def common_input(data: Any) -> dict:
         raise ValueError('proxyConfiguration must be an Apify proxy configuration object.')
     return {
         'maxItems': require_int(data, 'maxItems', 20, 1, 10000),
-        'pageSize': require_int(data, 'pageSize', 100, 1, 100),
+        'pageSize': require_int(data, 'pageSize', 5000, 1, 5000),
         'maxPages': require_int(data, 'maxPages', 100, 1, 500),
         'requestDelaySeconds': float(delay),
         'proxyConfiguration': proxy,

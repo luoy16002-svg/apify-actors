@@ -18,6 +18,8 @@ def normalize_input(data: dict) -> dict:
 async def collect(config: dict, client: PoliteClient, sink: ResultSink) -> dict:
     params = {k: config[k] for k in ('name', 'address', 'localAuthorityId', 'businessTypeId') if config[k]}
     # A fixed page size is essential: changing it mid-run shifts FSA offsets.
+    # Pages must also be large: the FSA's order is not stable for ties (a chain's branches), so small pages
+    # overlap and silently drop rows. One 5,000-row page avoids paging for most queries.
     page_size = min(config['pageSize'], config['maxItems'])
     params['pageSize'] = page_size
     seen_pages = set()
