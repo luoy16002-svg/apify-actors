@@ -8,8 +8,8 @@ from .parser import parse_establishment, parse_page
 def normalize_input(data: dict) -> dict:
     common = common_input(data)
     return {
-        **common, 'name': require_string(data, 'name', 'Pret A Manger'),
-        'address': require_string(data, 'address', 'London'),
+        **common, 'name': require_string(data, 'name', ''),
+        'address': require_string(data, 'address', ''),
         'localAuthorityId': require_int(data, 'localAuthorityId', 0, 0, 10000),
         'businessTypeId': require_int(data, 'businessTypeId', 0, 0, 100000),
     }

@@ -24,8 +24,8 @@ Leave `name` empty to get every business in an area, or leave `address` empty to
 
 | Field | Default | What it does |
 | --- | --- | --- |
-| `name` | `Pret A Manger` | Business name to search. Empty means any name. |
-| `address` | `London` | Town, address or postcode. Empty means anywhere. |
+| `name` | empty | Business name to search. Empty means any name. |
+| `address` | empty | Town, address or postcode. Empty means anywhere. |
 | `localAuthorityId` | `0` | Optional council filter using the FSA's authority ID (0 = off). |
 | `businessTypeId` | `0` | Optional business type filter, e.g. `1` for Restaurant/Cafe/Canteen (0 = off). |
 | `maxItems` | `20` | Stop after this many businesses (up to 10,000). |
