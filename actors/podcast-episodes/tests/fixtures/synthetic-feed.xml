@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:apple="https://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel><title>Fixture Show</title><link>https://example.org/show</link><description><![CDATA[<p>A <b>show</b>.</p>]]></description><language>en</language><apple:author>Fixture Publisher</apple:author><apple:explicit>no</apple:explicit>
+<item><title>Episode One</title><guid isPermaLink="false">guid-one</guid><pubDate>Wed, 30 Sep 2026 12:30:00 -0700</pubDate><description><![CDATA[<p>Hello <b>world</b>.</p>]]></description><apple:duration>01:02:03</apple:duration><apple:season>2</apple:season><apple:episode>10</apple:episode><apple:explicit>yes</apple:explicit><enclosure url="https://example.org/one.mp3" type="audio/mpeg"/><link>https://example.org/one</link></item>
+<item><title>Episode Two</title><pubDate>not a date</pubDate><apple:duration>95</apple:duration><content:encoded><![CDATA[<p>Second episode</p>]]></content:encoded><enclosure url="/two.mp3" type="audio/mpeg"/></item>
+</channel></rss>

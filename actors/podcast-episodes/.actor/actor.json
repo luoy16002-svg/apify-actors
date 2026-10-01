@@ -1,0 +1,19 @@
+{
+  "actorSpecification": 1,
+  "name": "podcast-episodes",
+  "title": "Podcast Episodes Scraper - RSS Feeds & Apple Podcasts",
+  "description": "Export podcast episodes from Apple Podcasts links or any public RSS feed: titles, publish dates, durations, audio links, episode numbers and clean descriptions. Filter by date and cap the episodes per show.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "dockerfile": "../Dockerfile",
+  "dockerContextDir": "..",
+  "readme": "../README.md",
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "defaultMemoryMbytes": 256,
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 512
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Podcast Episodes from Public RSS",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "shows": {
+      "title": "Apple shows",
+      "type": "array",
+      "description": "Apple Podcasts show IDs or show links, for example https://podcasts.apple.com/us/podcast/houston-we-have-a-podcast/id1262594123. Each one is resolved to the show's public RSS feed.",
+      "editor": "stringList",
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "prefill": [
+        "1262594123"
+      ]
+    },
+    "feedUrls": {
+      "title": "RSS feed URLs",
+      "type": "array",
+      "description": "Public podcast RSS feed URLs. Each feed host's robots.txt is checked first, including redirects.",
+      "editor": "stringList",
+      "default": [],
+      "items": {
+        "type": "string"
+      }
+    },
+    "country": {
+      "title": "Country",
+      "type": "string",
+      "description": "Two-letter Apple storefront code.",
+      "editor": "textfield",
+      "default": "us"
+    },
+    "maxShows": {
+      "title": "Maximum shows",
+      "type": "integer",
+      "description": "Global cap on unique discovered feed URLs.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 50,
+      "default": 5
+    },
+    "maxEpisodesPerShow": {
+      "title": "Episodes per show",
+      "type": "integer",
+      "description": "Maximum matching unique episodes per feed, preserving feed order.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 20
+    },
+    "publishedAfter": {
+      "title": "Published after",
+      "type": "string",
+      "description": "Exclusive lower timestamp bound. Date-only input means midnight UTC. Unknown dates are excluded when filtering.",
+      "editor": "textfield"
+    },
+    "requestDelaySeconds": {
+      "title": "Request interval",
+      "type": "number",
+      "description": "Minimum seconds between serial requests, including retries.",
+      "editor": "number",
+      "minimum": 3.2,
+      "maximum": 60,
+      "default": 3.2
+    },
+    "maxPages": {
+      "title": "Maximum pages",
+      "type": "integer",
+      "description": "Safety bound on source pages scanned. Filters can result in fewer saved items.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 500,
+      "default": 100
+    }
+  },
+  "required": []
+}

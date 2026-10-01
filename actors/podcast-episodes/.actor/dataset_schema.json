@@ -1,0 +1,193 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "type": "object",
+    "properties": {
+      "recordType": {
+        "type": "string"
+      },
+      "episodeKey": {
+        "type": "string"
+      },
+      "showTitle": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "showId": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "feedUrl": {
+        "type": "string",
+        "format": "uri"
+      },
+      "showAuthor": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "showDescription": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "showLanguage": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "showUrl": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "uri"
+      },
+      "episodeTitle": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "guid": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "publishedAt": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date-time"
+      },
+      "audioUrl": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "uri"
+      },
+      "episodeUrl": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "uri"
+      },
+      "description": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "durationSeconds": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "seasonNumber": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "episodeNumber": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "showExplicit": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "explicit": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "showGenres": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "recordType",
+      "episodeKey",
+      "showTitle",
+      "showId",
+      "feedUrl",
+      "showAuthor",
+      "showDescription",
+      "showLanguage",
+      "showUrl",
+      "episodeTitle",
+      "guid",
+      "publishedAt",
+      "audioUrl",
+      "episodeUrl",
+      "description",
+      "durationSeconds",
+      "seasonNumber",
+      "episodeNumber",
+      "showExplicit",
+      "explicit",
+      "showGenres"
+    ],
+    "additionalProperties": false
+  },
+  "views": {
+    "overview": {
+      "title": "Results",
+      "transformation": {
+        "fields": [
+          "showTitle",
+          "episodeTitle",
+          "publishedAt",
+          "durationSeconds",
+          "audioUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "showTitle": {
+            "label": "showTitle",
+            "format": "text"
+          },
+          "episodeTitle": {
+            "label": "episodeTitle",
+            "format": "text"
+          },
+          "publishedAt": {
+            "label": "publishedAt",
+            "format": "text"
+          },
+          "durationSeconds": {
+            "label": "durationSeconds",
+            "format": "text"
+          },
+          "audioUrl": {
+            "label": "audioUrl",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Public Tenders - UK and EU Official APIs",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "sources": {
+      "title": "Sources",
+      "type": "array",
+      "description": "Official adapters, queried serially in round-robin order.",
+      "editor": "stringList",
+      "default": [
+        "find-tender",
+        "contracts-finder",
+        "ted"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "keywords": {
+      "title": "Keywords",
+      "type": "array",
+      "description": "Match ANY phrase, case insensitive, in normalized title, description or buyer. Applied before saving.",
+      "editor": "stringList",
+      "default": [],
+      "items": {
+        "type": "string"
+      }
+    },
+    "publishedFrom": {
+      "title": "Published from",
+      "type": "string",
+      "description": "Inclusive UTC date, YYYY-MM-DD. Defaults to seven days ago.",
+      "editor": "textfield"
+    },
+    "publishedTo": {
+      "title": "Published to",
+      "type": "string",
+      "description": "Inclusive UTC date, YYYY-MM-DD. Defaults to today.",
+      "editor": "textfield"
+    },
+    "cpvCodes": {
+      "title": "CPV codes",
+      "type": "array",
+      "description": "Match ANY 2-8 digit prefix or full CPV code. Applied locally across all sources.",
+      "editor": "stringList",
+      "default": [],
+      "items": {
+        "type": "string"
+      }
+    },
+    "minimumValue": {
+      "title": "Minimum estimated value",
+      "type": "number",
+      "description": "Inclusive numeric threshold. Requires valueCurrency when positive; unknown estimates are excluded. No currency conversion.",
+      "editor": "number",
+      "minimum": 0,
+      "default": 0
+    },
+    "valueCurrency": {
+      "title": "Value currency",
+      "type": "string",
+      "description": "Optional three-letter currency filter, required for a positive minimumValue.",
+      "editor": "textfield"
+    },
+    "maxResults": {
+      "title": "Maximum results",
+      "type": "integer",
+      "description": "Global unique matching notice cap across sources.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 10000,
+      "default": 100
+    },
+    "pageSize": {
+      "title": "Page size",
+      "type": "integer",
+      "description": "Maximum upstream page size. Sources share the remaining result budget.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 100,
+      "default": 50
+    },
+    "requestDelaySeconds": {
+      "title": "Request interval",
+      "type": "number",
+      "description": "Minimum seconds between serial requests, including retries.",
+      "editor": "number",
+      "minimum": 1.2,
+      "maximum": 60,
+      "default": 1.2
+    },
+    "maxPages": {
+      "title": "Maximum pages",
+      "type": "integer",
+      "description": "Safety bound on source pages scanned. Filters can result in fewer saved items.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 500,
+      "default": 100
+    }
+  },
+  "required": []
+}

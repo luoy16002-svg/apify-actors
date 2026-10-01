@@ -1,0 +1,19 @@
+{
+  "actorSpecification": 1,
+  "name": "public-tenders",
+  "title": "UK & EU Public Tenders - Find a Tender, Contracts Finder, TED",
+  "description": "Get new public procurement notices from UK Find a Tender, UK Contracts Finder and EU TED in one table. Filter by date, keyword, CPV code and estimated value. Each row has the buyer, deadline, value, CPV codes and the official link.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "dockerfile": "../Dockerfile",
+  "dockerContextDir": "..",
+  "readme": "../README.md",
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "defaultMemoryMbytes": 256,
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 512
+}

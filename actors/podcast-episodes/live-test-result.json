@@ -1,0 +1,19 @@
+{
+  "command": "python -B -m src --input test-input.json",
+  "exitCode": 0,
+  "sampleRows": 3,
+  "stats": {
+    "pagesFetched": 1,
+    "showsFetched": 1,
+    "filtered": 0,
+    "skippedMalformed": 0,
+    "feedsWithParseWarnings": 0,
+    "sourceErrors": [],
+    "stopReason": "item_or_budget_limit",
+    "items": 3,
+    "duplicates": 0,
+    "requests": 4,
+    "retries": 0,
+    "finishedAt": "2026-10-01T19:55:05Z"
+  }
+}

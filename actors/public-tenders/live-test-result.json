@@ -1,0 +1,37 @@
+{
+  "command": "python -B -m src --input test-input.json",
+  "exitCode": 0,
+  "sampleRows": 6,
+  "stats": {
+    "pagesFetched": 6,
+    "filtered": 0,
+    "skippedMalformed": 0,
+    "sources": {
+      "find-tender": {
+        "pages": 2,
+        "items": 2
+      },
+      "contracts-finder": {
+        "pages": 2,
+        "items": 2
+      },
+      "ted": {
+        "pages": 2,
+        "items": 2
+      }
+    },
+    "sourceErrors": [],
+    "stopReason": "item_or_budget_limit",
+    "scanAsOf": "2026-10-01T20:13:11Z",
+    "unexhaustedSources": [
+      "find-tender",
+      "contracts-finder",
+      "ted"
+    ],
+    "items": 6,
+    "duplicates": 0,
+    "requests": 9,
+    "retries": 0,
+    "finishedAt": "2026-10-01T20:13:22Z"
+  }
+}

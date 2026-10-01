@@ -1,0 +1,12 @@
+{
+  "sources": [
+    "find-tender",
+    "contracts-finder",
+    "ted"
+  ],
+  "publishedFrom": "2026-09-30",
+  "publishedTo": "2026-10-01",
+  "maxResults": 6,
+  "pageSize": 1,
+  "maxPages": 30
+}
