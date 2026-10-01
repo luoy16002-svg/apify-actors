@@ -66,7 +66,8 @@ businesses show `Exempt` or `AwaitingInspection`. For the sub-scores, lower is b
 
 ## Pricing
 
-$2.00 per 1,000 businesses, plus a tiny start fee per run. Duplicates are free.
+$1.00 per 1,000 businesses on the Free plan, $0.90 on Starter, $0.80 on Scale and $0.70 on Business. Duplicates
+are free, and there is no start fee.
 
 ## FAQ
 
