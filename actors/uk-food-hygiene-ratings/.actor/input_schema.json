@@ -8,7 +8,6 @@
       "description": "Name to search; clear this for all businesses in your selected area.",
       "type": "string",
       "editor": "textfield",
-      "default": "Pret A Manger",
       "prefill": "Pret A Manger"
     },
     "address": {
@@ -16,7 +15,6 @@
       "description": "Address search sent to the FSA. Clear this to search all areas.",
       "type": "string",
       "editor": "textfield",
-      "default": "London",
       "prefill": "London"
     },
     "localAuthorityId": {

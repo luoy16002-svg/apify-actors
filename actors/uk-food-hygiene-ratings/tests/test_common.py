@@ -224,7 +224,7 @@ def test_metadata_and_default_input():
     assert (root / '.actor' / actor['dockerContextDir']).resolve() == root
     schema = json.loads((root / '.actor/input_schema.json').read_text())
     jsonschema.Draft7Validator.check_schema(schema)
-    defaults = {key: value['default'] for key, value in schema['properties'].items()}
+    defaults = {key: value['default'] for key, value in schema['properties'].items() if 'default' in value}
     jsonschema.validate(defaults, schema)
     assert defaults['proxyConfiguration']['useApifyProxy'] is False
     dataset = json.loads((root / '.actor/dataset_schema.json').read_text())

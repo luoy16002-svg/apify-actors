@@ -106,4 +106,5 @@ def test_no_request_when_budget_zero():
 
 def test_runtime_defaults_match_schema():
     schema = json.loads((ROOT / '.actor/input_schema.json').read_text())
-    assert normalize_input({}) == {key: value['default'] for key, value in schema['properties'].items()}
+    # name and address have no schema default, so a cleared form field means 'any'.
+    assert normalize_input({}) == {key: value.get('default', '') for key, value in schema['properties'].items()}
