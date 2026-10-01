@@ -1,0 +1,10 @@
+storage
+.venv
+.git
+__pycache__
+**/__pycache__
+.pytest_cache
+tests
+sample-output.json
+TESTING.md
+.env

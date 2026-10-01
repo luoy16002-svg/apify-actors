@@ -1,0 +1,227 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "type": "object",
+    "properties": {
+      "recordType": {
+        "type": "string"
+      },
+      "source": {
+        "type": "string"
+      },
+      "noticeId": {
+        "type": "string"
+      },
+      "sourceId": {
+        "type": "string"
+      },
+      "ocid": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "title": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "description": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "buyerName": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "buyerCountry": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "noticeType": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "publishedAt": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "deadline": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "deadlineRaw": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "currency": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "valueBasis": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "procedureType": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "officialUrl": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "uri"
+      },
+      "licenseUrl": {
+        "type": "string"
+      },
+      "attribution": {
+        "type": "string"
+      },
+      "estimatedValue": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "cpvCodes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "buyerCountries": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "deadlines": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "recordType",
+      "source",
+      "noticeId",
+      "sourceId",
+      "ocid",
+      "title",
+      "description",
+      "buyerName",
+      "buyerCountry",
+      "noticeType",
+      "publishedAt",
+      "deadline",
+      "deadlineRaw",
+      "currency",
+      "valueBasis",
+      "procedureType",
+      "officialUrl",
+      "licenseUrl",
+      "attribution",
+      "estimatedValue",
+      "cpvCodes",
+      "buyerCountries",
+      "deadlines"
+    ],
+    "additionalProperties": false
+  },
+  "views": {
+    "overview": {
+      "title": "Results",
+      "transformation": {
+        "fields": [
+          "source",
+          "title",
+          "buyerName",
+          "publishedAt",
+          "deadline",
+          "estimatedValue",
+          "currency",
+          "officialUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "source": {
+            "label": "source",
+            "format": "text"
+          },
+          "title": {
+            "label": "title",
+            "format": "text"
+          },
+          "buyerName": {
+            "label": "buyerName",
+            "format": "text"
+          },
+          "publishedAt": {
+            "label": "publishedAt",
+            "format": "text"
+          },
+          "deadline": {
+            "label": "deadline",
+            "format": "text"
+          },
+          "estimatedValue": {
+            "label": "estimatedValue",
+            "format": "text"
+          },
+          "currency": {
+            "label": "currency",
+            "format": "text"
+          },
+          "officialUrl": {
+            "label": "officialUrl",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}

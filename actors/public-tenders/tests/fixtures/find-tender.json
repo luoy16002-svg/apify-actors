@@ -1,0 +1,1138 @@
+{
+  "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?limit=1&updatedFrom=2026-09-30T00:00:00Z&updatedTo=2026-10-01T00:00:00Z",
+  "version": "1.1",
+  "extensions": [
+    "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+    "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+    "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+  ],
+  "publishedDate": "2026-09-30T23:30:39+01:00",
+  "publisher": {
+    "name": "Cabinet Office",
+    "scheme": "GB-GOR",
+    "uid": "D2",
+    "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+  },
+  "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "id": "092612-2026",
+      "tag": [
+        "award",
+        "contract"
+      ],
+      "date": "2026-09-30T23:30:39+01:00",
+      "initiationType": "tender",
+      "ocid": "ocds-h6vhtk-0510f8",
+      "parties": [
+        {
+          "name": "Government Commercial Agency",
+          "id": "GB-PPON-PBZB-4962-TVLR",
+          "identifier": {
+            "scheme": "GB-PPON",
+            "id": "PBZB-4962-TVLR"
+          },
+          "address": {
+            "streetAddress": "9th Floor, The Capital, Old Hall Street",
+            "locality": "Liverpool",
+            "postalCode": "L3 9PP",
+            "country": "GB",
+            "countryName": "United Kingdom",
+            "region": "UKD72"
+          },
+          "roles": [
+            "buyer"
+          ],
+          "details": {
+            "url": "https://www.gov.gca.uk",
+            "classifications": [
+              {
+                "scheme": "UK_CA_TYPE",
+                "id": "publicAuthorityCentralGovernment",
+                "description": "Public authority - central government"
+              }
+            ]
+          }
+        },
+        {
+          "name": "SPACEFLUX LTD",
+          "id": "GB-PPON-PZRP-1811-DLNX",
+          "identifier": {
+            "scheme": "GB-PPON",
+            "id": "PZRP-1811-DLNX"
+          },
+          "address": {
+            "streetAddress": "The Ivories, Unit 21",
+            "locality": "London",
+            "postalCode": "N1 2HY",
+            "country": "GB",
+            "countryName": "United Kingdom",
+            "region": "UKI43"
+          },
+          "roles": [
+            "removedSupplier"
+          ]
+        }
+      ],
+      "buyer": {
+        "id": "GB-PPON-PBZB-4962-TVLR",
+        "name": "Government Commercial Agency"
+      },
+      "tender": {
+        "id": "RM6370",
+        "legalBasis": {
+          "id": "2023/54",
+          "scheme": "UKPGA",
+          "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+        },
+        "amendments": [
+          {
+            "date": "2026-09-30T00:00:00+01:00",
+            "id": "092612-2026"
+          }
+        ],
+        "title": "Space Technology Solutions",
+        "documents": [
+          {
+            "id": "092612-2026",
+            "documentType": "awardNotice",
+            "noticeType": "UK15",
+            "description": "Dynamic market modification notice on Find a Tender",
+            "url": "https://www.find-tender.service.gov.uk/Notice/092612-2026",
+            "datePublished": "2026-09-30T23:30:39+01:00",
+            "format": "text/html"
+          }
+        ]
+      },
+      "awards": [
+        {
+          "id": "1",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "17",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "18",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "20",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "21",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "23",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "24",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "26",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "27",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "29",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "30",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "31",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "32",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "33",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "34",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "35",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "36",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "38",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "39",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "40",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "41",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "42",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "43",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "44",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "45",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "46",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "47",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "48",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "49",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "50",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "51",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "52",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "53",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "54",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "55",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "56",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "57",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "58",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "59",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "60",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "61",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "62",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "63",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "64",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "65",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "66",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "67",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "68",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "69",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "70",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "71",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "72",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "73",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "74",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "75",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "76",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "77",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "78",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "79",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "80",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "81",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "82",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "83",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "84",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "85",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "86",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "87",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "88",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "89",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "90",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "91",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "92",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "93",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "94",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "95",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "96",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "97",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "98",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "99",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "100",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "101",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "102",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "103",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "104",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "105",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "106",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "107",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "108",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "109",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "110",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "111",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "112",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "113",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "114",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "115",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "116",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "117",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "118",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "119",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "120",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "121",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "122",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "123",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "124",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "125",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "126",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        },
+        {
+          "id": "127",
+          "amendments": [
+            {
+              "id": "092612-2026"
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    }
+  ],
+  "links": {
+    "next": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?limit=1&updatedFrom=2026-09-30T00:00:00Z&updatedTo=2026-10-01T00:00:00Z&cursor=dXBkYXRlZEZyb209MjAyNi0wOS0zMFQwMDowMDowMFp8dXBkYXRlZFRvPTIwMjYtMTAtMDFUMDA6MDA6MDBafG5leHRDdXJzb3I9NzQ1MTI1"
+  }
+}

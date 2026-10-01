@@ -1,0 +1,179 @@
+[
+  {
+    "recordType": "notice",
+    "source": "find-tender",
+    "noticeId": "093061-2026",
+    "sourceId": "093061-2026",
+    "ocid": "ocds-h6vhtk-077f1e",
+    "title": "Contract BC26-264 Tivit",
+    "description": "20260828 Contract BC26-264 Tivit",
+    "buyerName": "British Council",
+    "buyerCountry": "GB",
+    "buyerCountries": [
+      "GB"
+    ],
+    "noticeType": "award,contract",
+    "publishedAt": "2026-10-01T19:54:16Z",
+    "deadline": null,
+    "deadlines": [],
+    "deadlineRaw": null,
+    "estimatedValue": null,
+    "currency": null,
+    "valueBasis": null,
+    "cpvCodes": [],
+    "procedureType": "limited",
+    "officialUrl": "https://www.find-tender.service.gov.uk/Notice/093061-2026",
+    "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  {
+    "recordType": "notice",
+    "source": "contracts-finder",
+    "noticeId": "91ac2c18-297c-4746-a349-4c78d487a796-916299",
+    "sourceId": "91ac2c18-297c-4746-a349-4c78d487a796-916299",
+    "ocid": "ocds-b5fd17-ad2aa9a1-e9fd-4109-a88d-457080163247",
+    "title": "Taxi and MPV (1-8 seats) Passenger Assistant - Taxi and MPV (1-8 seats) Passenger Assistant",
+    "description": "Vehicle type: 6 seater Passenger Assistant Required: Shared PA. Proposed Taxi Route: From: BN27 2LX and BN27 1GU To: Flagship School, TN34 2AE Frequency: Monday to Friday Daily School Time: Mon- Fri 08:50-114:30 Comments for Operator: Shared PA for both children. This opportunity has been distributed on SProc.net",
+    "buyerName": "East Sussex County Council",
+    "buyerCountry": "United Kingdom",
+    "buyerCountries": [
+      "United Kingdom"
+    ],
+    "noticeType": "tender",
+    "publishedAt": "2026-10-01T19:32:52Z",
+    "deadline": "2026-10-05T10:00:00Z",
+    "deadlines": [
+      "2026-10-05T10:00:00Z"
+    ],
+    "deadlineRaw": "2026-10-05T11:00:00+01:00",
+    "estimatedValue": null,
+    "currency": null,
+    "valueBasis": null,
+    "cpvCodes": [
+      "60000000"
+    ],
+    "procedureType": "selective",
+    "officialUrl": "https://www.contractsfinder.service.gov.uk/Notice/91ac2c18-297c-4746-a349-4c78d487a796",
+    "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  {
+    "recordType": "notice",
+    "source": "ted",
+    "noticeId": "670713-2026",
+    "sourceId": "a265ca49-f0c5-4702-8798-ca1471b6abb3",
+    "ocid": null,
+    "title": "Poland – Public road transport services – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+    "description": "Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+    "buyerName": "GMINA ŁUBOWO",
+    "buyerCountry": "POL",
+    "buyerCountries": [
+      "POL"
+    ],
+    "noticeType": "pin-only",
+    "publishedAt": "2026-09-30",
+    "deadline": null,
+    "deadlines": [],
+    "deadlineRaw": null,
+    "estimatedValue": null,
+    "currency": null,
+    "valueBasis": null,
+    "cpvCodes": [
+      "60112000"
+    ],
+    "procedureType": null,
+    "officialUrl": "https://ted.europa.eu/en/notice/-/detail/670713-2026",
+    "licenseUrl": "https://ted.europa.eu/en/legal-notice",
+    "attribution": "Source: TED, Supplement to the Official Journal of the European Union. Fields normalized; see official notice."
+  },
+  {
+    "recordType": "notice",
+    "source": "find-tender",
+    "noticeId": "093060-2026",
+    "sourceId": "093060-2026",
+    "ocid": "ocds-h6vhtk-0648db",
+    "title": "Provision of Urgent Fixed Wire Testing",
+    "description": null,
+    "buyerName": "The Police, Fire and Crime Commissioner for Northamptonshire",
+    "buyerCountry": "GB",
+    "buyerCountries": [
+      "GB"
+    ],
+    "noticeType": "contractAmendment",
+    "publishedAt": "2026-10-01T19:08:47Z",
+    "deadline": null,
+    "deadlines": [],
+    "deadlineRaw": null,
+    "estimatedValue": null,
+    "currency": null,
+    "valueBasis": null,
+    "cpvCodes": [],
+    "procedureType": null,
+    "officialUrl": "https://www.find-tender.service.gov.uk/Notice/093060-2026",
+    "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  {
+    "recordType": "notice",
+    "source": "contracts-finder",
+    "noticeId": "e40809d8-e69e-4485-b112-bbc4a9541c5e-916298",
+    "sourceId": "e40809d8-e69e-4485-b112-bbc4a9541c5e-916298",
+    "ocid": "ocds-b5fd17-4fbbe950-0878-4b90-ba4d-76d11b288f0d",
+    "title": "Taxi and MPV (1-8 seats) Passenger Assistant - Taxi and MPV (1-8 seats) Passenger Assistant",
+    "description": "Vehicle type: 8 seater Passenger Assistant Required: Shared PA. Proposed Taxi Route: From: TN38 9UD, TN38 0DD and TN37 6EH To: Flagship School, TN34 2AE Frequency: Monday to Friday Daily School Time: Mon- Fri 08:50-114:30 Comments for Operator: Shared PA for all children with space around. This opportunity has been distributed on SProc.net",
+    "buyerName": "East Sussex County Council",
+    "buyerCountry": "United Kingdom",
+    "buyerCountries": [
+      "United Kingdom"
+    ],
+    "noticeType": "tender",
+    "publishedAt": "2026-10-01T19:28:51Z",
+    "deadline": "2026-10-05T09:15:00Z",
+    "deadlines": [
+      "2026-10-05T09:15:00Z"
+    ],
+    "deadlineRaw": "2026-10-05T10:15:00+01:00",
+    "estimatedValue": null,
+    "currency": null,
+    "valueBasis": null,
+    "cpvCodes": [
+      "60000000"
+    ],
+    "procedureType": "selective",
+    "officialUrl": "https://www.contractsfinder.service.gov.uk/Notice/e40809d8-e69e-4485-b112-bbc4a9541c5e",
+    "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  {
+    "recordType": "notice",
+    "source": "ted",
+    "noticeId": "670714-2026",
+    "sourceId": "05863400-bed8-4225-9269-fbbf4d17236a",
+    "ocid": null,
+    "title": "Romania – Medical equipments – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+    "description": "Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate Achiziția se va realiza pe loturi, astfel: LOT 1: - Monitoare functii vitale multiparametru pacient critic: 5 buc.; - Stație centrală de monitorizare: 1 buc.; - Defibrilator bifazic cu pacemaker: 1 buc.; - Cărucior resuscitare -Troliu urgente complet cu trusa si defibrilator AED: 1 buc.; - Ventilatoare mecanice: 1 buc.; - Sistem de aspirare: 3 buc.; - Modul 6 injectomate si 2 infuzomate + statie: 5 buc.; - Electocardiograf cu carucior; 1 buc.; - Ecocardiograf cu sonda transesofagiana: 1 buc.; - Ecocardigraf portabil: 1 buc.; - Analizator portabil POCT (gazometrie, electroliți): 1 buc.; - Glucometru spitalicesc. 3 buc.; - Holter TA: 1 buc.; - Holter EKG: 1 buc.; - Test de efort: 1 buc. LOT 2: - Paturi speciale terapie intensivă: 5 buc.; - Carucior troliu medicamente: 1 buc.; - Targa cu butelie de O2 pentru pacient critic: 1 buc.; - Lampa articulara: 5 buc. LOT 3: - Stetoscop: 5 buc.; - Tensiometru: 5 buc. LOT 4: - Sursa de gaze medicinale la fiecare pat: 5 buc.; - Prize de aer comprimat 4atm: 5 buc.; - Priza de vacum 200mmHg: 5 buc. LOT 5: - Noptiere cu frigider: 5 buc.; - Dulap medicamente: 1 buc.; - Frigider medicamente: 1 buc. Orice operator economic interesat are dreptul de a solicita clarificări, sau informații suplimentare în legătură cu documentaţia de atribuire, cu respectarea termenului limită precizat de autoritatea contractantă, respectiv nu mai târziu de 18 zile înainte de termenul-limită stabilit pentru depunerea ofertelor. Solicitările de clarificări depuse după acest termen nu vor mai fi luate în considerare. Conform prevederilor art. 160-161 din Legea nr. 98/2016 privind achizițiile publice, cu modificările și completările ulterioare, autoritatea contractantă va răspunde în mod clar și complet tuturor solicitărilor de clarificare/informații suplimentare, în a 11-a zi înainte de termenul limită stabilit pentru depunerea ofertelor, în măsura în care acestea vor fi adresate în termenul prevăzut în anunțul de participare. Răspunsul consolidat la clarificările solicitate, va fi publicat în SEAP în cadrul anunțului de participare.",
+    "buyerName": "JUDETUL CARAS-SEVERIN",
+    "buyerCountry": "ROU",
+    "buyerCountries": [
+      "ROU"
+    ],
+    "noticeType": "cn-standard",
+    "publishedAt": "2026-09-30",
+    "deadline": "2026-10-15T12:00:00Z",
+    "deadlines": [
+      "2026-10-15T12:00:00Z"
+    ],
+    "deadlineRaw": "2026-10-15+03:00",
+    "estimatedValue": 3243807.59,
+    "currency": "RON",
+    "valueBasis": "estimated-value-proc",
+    "cpvCodes": [
+      "33100000",
+      "79632000"
+    ],
+    "procedureType": "open",
+    "officialUrl": "https://ted.europa.eu/en/notice/-/detail/670714-2026",
+    "licenseUrl": "https://ted.europa.eu/en/legal-notice",
+    "attribution": "Source: TED, Supplement to the Official Journal of the European Union. Fields normalized; see official notice."
+  }
+]

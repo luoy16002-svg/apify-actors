@@ -1,0 +1,454 @@
+{
+  "notices": [
+    {
+      "notice-identifier": "a265ca49-f0c5-4702-8798-ca1471b6abb3",
+      "notice-type": "pin-only",
+      "publication-number": "670713-2026",
+      "classification-cpv": [
+        "60112000",
+        "60112000"
+      ],
+      "organisation-country-buyer": [
+        "POL"
+      ],
+      "buyer-name": {
+        "pol": [
+          "GMINA ŁUBOWO"
+        ]
+      },
+      "publication-date": "2026-09-30+02:00",
+      "links": {
+        "xml": {
+          "MUL": "https://ted.europa.eu/en/notice/670713-2026/xml"
+        },
+        "pdf": {
+          "BUL": "https://ted.europa.eu/bg/notice/670713-2026/pdf",
+          "SPA": "https://ted.europa.eu/es/notice/670713-2026/pdf",
+          "CES": "https://ted.europa.eu/cs/notice/670713-2026/pdf",
+          "DAN": "https://ted.europa.eu/da/notice/670713-2026/pdf",
+          "DEU": "https://ted.europa.eu/de/notice/670713-2026/pdf",
+          "EST": "https://ted.europa.eu/et/notice/670713-2026/pdf",
+          "ELL": "https://ted.europa.eu/el/notice/670713-2026/pdf",
+          "ENG": "https://ted.europa.eu/en/notice/670713-2026/pdf",
+          "FRA": "https://ted.europa.eu/fr/notice/670713-2026/pdf",
+          "GLE": "https://ted.europa.eu/ga/notice/670713-2026/pdf",
+          "HRV": "https://ted.europa.eu/hr/notice/670713-2026/pdf",
+          "ITA": "https://ted.europa.eu/it/notice/670713-2026/pdf",
+          "LAV": "https://ted.europa.eu/lv/notice/670713-2026/pdf",
+          "LIT": "https://ted.europa.eu/lt/notice/670713-2026/pdf",
+          "HUN": "https://ted.europa.eu/hu/notice/670713-2026/pdf",
+          "MLT": "https://ted.europa.eu/mt/notice/670713-2026/pdf",
+          "NLD": "https://ted.europa.eu/nl/notice/670713-2026/pdf",
+          "POL": "https://ted.europa.eu/pl/notice/670713-2026/pdf",
+          "POR": "https://ted.europa.eu/pt/notice/670713-2026/pdf",
+          "RON": "https://ted.europa.eu/ro/notice/670713-2026/pdf",
+          "SLK": "https://ted.europa.eu/sk/notice/670713-2026/pdf",
+          "SLV": "https://ted.europa.eu/sl/notice/670713-2026/pdf",
+          "FIN": "https://ted.europa.eu/fi/notice/670713-2026/pdf",
+          "SWE": "https://ted.europa.eu/sv/notice/670713-2026/pdf"
+        },
+        "pdfs": {
+          "POL": "https://ted.europa.eu/pl/notice/670713-2026/pdfs"
+        },
+        "html": {
+          "BUL": "https://ted.europa.eu/bg/notice/-/detail/670713-2026",
+          "SPA": "https://ted.europa.eu/es/notice/-/detail/670713-2026",
+          "CES": "https://ted.europa.eu/cs/notice/-/detail/670713-2026",
+          "DAN": "https://ted.europa.eu/da/notice/-/detail/670713-2026",
+          "DEU": "https://ted.europa.eu/de/notice/-/detail/670713-2026",
+          "EST": "https://ted.europa.eu/et/notice/-/detail/670713-2026",
+          "ELL": "https://ted.europa.eu/el/notice/-/detail/670713-2026",
+          "ENG": "https://ted.europa.eu/en/notice/-/detail/670713-2026",
+          "FRA": "https://ted.europa.eu/fr/notice/-/detail/670713-2026",
+          "GLE": "https://ted.europa.eu/ga/notice/-/detail/670713-2026",
+          "HRV": "https://ted.europa.eu/hr/notice/-/detail/670713-2026",
+          "ITA": "https://ted.europa.eu/it/notice/-/detail/670713-2026",
+          "LAV": "https://ted.europa.eu/lv/notice/-/detail/670713-2026",
+          "LIT": "https://ted.europa.eu/lt/notice/-/detail/670713-2026",
+          "HUN": "https://ted.europa.eu/hu/notice/-/detail/670713-2026",
+          "MLT": "https://ted.europa.eu/mt/notice/-/detail/670713-2026",
+          "NLD": "https://ted.europa.eu/nl/notice/-/detail/670713-2026",
+          "POL": "https://ted.europa.eu/pl/notice/-/detail/670713-2026",
+          "POR": "https://ted.europa.eu/pt/notice/-/detail/670713-2026",
+          "RON": "https://ted.europa.eu/ro/notice/-/detail/670713-2026",
+          "SLK": "https://ted.europa.eu/sk/notice/-/detail/670713-2026",
+          "SLV": "https://ted.europa.eu/sl/notice/-/detail/670713-2026",
+          "FIN": "https://ted.europa.eu/fi/notice/-/detail/670713-2026",
+          "SWE": "https://ted.europa.eu/sv/notice/-/detail/670713-2026"
+        },
+        "htmlDirect": {
+          "BUL": "https://ted.europa.eu/bg/notice/670713-2026/html",
+          "SPA": "https://ted.europa.eu/es/notice/670713-2026/html",
+          "CES": "https://ted.europa.eu/cs/notice/670713-2026/html",
+          "DAN": "https://ted.europa.eu/da/notice/670713-2026/html",
+          "DEU": "https://ted.europa.eu/de/notice/670713-2026/html",
+          "EST": "https://ted.europa.eu/et/notice/670713-2026/html",
+          "ELL": "https://ted.europa.eu/el/notice/670713-2026/html",
+          "ENG": "https://ted.europa.eu/en/notice/670713-2026/html",
+          "FRA": "https://ted.europa.eu/fr/notice/670713-2026/html",
+          "GLE": "https://ted.europa.eu/ga/notice/670713-2026/html",
+          "HRV": "https://ted.europa.eu/hr/notice/670713-2026/html",
+          "ITA": "https://ted.europa.eu/it/notice/670713-2026/html",
+          "LAV": "https://ted.europa.eu/lv/notice/670713-2026/html",
+          "LIT": "https://ted.europa.eu/lt/notice/670713-2026/html",
+          "HUN": "https://ted.europa.eu/hu/notice/670713-2026/html",
+          "MLT": "https://ted.europa.eu/mt/notice/670713-2026/html",
+          "NLD": "https://ted.europa.eu/nl/notice/670713-2026/html",
+          "POL": "https://ted.europa.eu/pl/notice/670713-2026/html",
+          "POR": "https://ted.europa.eu/pt/notice/670713-2026/html",
+          "RON": "https://ted.europa.eu/ro/notice/670713-2026/html",
+          "SLK": "https://ted.europa.eu/sk/notice/670713-2026/html",
+          "SLV": "https://ted.europa.eu/sl/notice/670713-2026/html",
+          "FIN": "https://ted.europa.eu/fi/notice/670713-2026/html",
+          "SWE": "https://ted.europa.eu/sv/notice/670713-2026/html"
+        }
+      },
+      "notice-title": {
+        "hun": "Lengyelország – Közúti tömegközlekedési szolgáltatások – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "lav": "Polija – Sabiedriskie autotransporta pakalpojumi – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "swe": "Polen – Kollektivtrafik på väg – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "gle": "An Pholainn – Public road transport services – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "ell": "Πολωνία – Υπηρεσίες δημόσιων οδικών μεταφορών – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "spa": "Polonia – Servicios de transporte por la vía pública – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "est": "Poola – Maantee ühistransporditeenused – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "nld": "Polen – Openbaarvervoersdiensten – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "fin": "Puola – Joukkoliikennepalvelut maanteitse – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "pol": "Polska – Usługi w zakresie publicznego transportu drogowego – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "hrv": "Poljska – Usluge javnog cestovnog prijevoza – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "ces": "Polsko – Služby veřejné silniční dopravy – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "dan": "Polen – Offentlig vejtransport – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "ron": "Polonia – Servicii de transport rutier public – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "por": "Polónia – Serviços de transporte público rodoviário – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "slk": "Poľsko – Služby verejnej cestnej dopravy – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "fra": "Pologne – Services de transport routier public – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "mlt": "Il-Polonja – Servizzi ta' trasport pubbliku bit-triq – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "deu": "Polen – Öffentlicher Verkehr (Straße) – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "lit": "Lenkija – Viešojo kelių transporto paslaugos – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "ita": "Polonia – Servizi di trasporto pubblico terrestre – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "bul": "Полша – Услуги на обществения пътен транспорт – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "slv": "Poljska – Storitve javnega cestnega prevoza – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo.",
+        "eng": "Poland – Public road transport services – Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo."
+      },
+      "description-proc": {
+        "pol": "Świadczenie usług w zakresie zbiorowego transportu publicznego o charakterze użyteczności publicznej na terenie, dla którego organizatorem jest Gmina Łubowo."
+      }
+    },
+    {
+      "notice-identifier": "05863400-bed8-4225-9269-fbbf4d17236a",
+      "deadline-receipt-tender-date-lot": [
+        "2026-10-15+03:00",
+        "2026-10-15+03:00",
+        "2026-10-15+03:00",
+        "2026-10-15+03:00",
+        "2026-10-15+03:00"
+      ],
+      "notice-type": "cn-standard",
+      "publication-number": "670714-2026",
+      "organisation-country-buyer": [
+        "ROU"
+      ],
+      "estimated-value-cur-proc": "RON",
+      "description-lot": {
+        "ron": [
+          "Furnizare echipamente medicale: - Monitoare functii vitale multiparametru pacient critic: 5 buc.; - Stație centrală de monitorizare: 1 buc.; - Defibrilator bifazic cu pacemaker: 1 buc.; - Cărucior resuscitare -Troliu urgente complet cu trusa si defibrilator AED: 1 buc.; - Ventilatoare mecanice: 1 buc.; - Sistem de aspirare: 3 buc.; - Modul 6 injectomate si 2 infuzomate + statie: 5 buc.; - Electocardiograf cu carucior; 1 buc.; - Ecocardiograf cu sonda transesofagiana: 1 buc.; - Ecocardigraf portabil: 1 buc.; - Analizator portabil POCT (gazometrie, electroliți): 1 buc.; - Glucometru spitalicesc. 3 buc.; - Holter TA: 1 buc.; - Holter EKG: 1 buc.; - Test de efort: 1 buc., conform fișelor tehnice și a criteriului de atribuire pentru Lotul 1, pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+          "Furnizare echipamente medicale: - Paturi speciale terapie intensivă: 5 buc.; - Carucior troliu medicamente: 1 buc.; - Targa cu butelie de O2 pentru pacient critic: 1 buc.; - Lampa articulara: 5 buc., conform fișelor tehnice și a criteriului de atribuire pentru Lotul 2, pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+          "Furnizare echipamente medicale: - Stetoscop: 5 buc.; - Tensiometru: 5 buc ., conform fișelor tehnice și a criteriului de atribuire pentru Lotul 3. pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+          "Furnizare echipamente medicale: - Sursa de gaze medicinale la fiecare pat: 5 buc.; - Prize de aer comprimat 4atm: 5 buc.; - Priza de vacum 200mmHg: 5 buc.,, conform fișelor tehnice și a criteriului de atribuire pentru Lotul 4, pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+          "Furnizare echipamente medicale: - Noptiere cu frigider: 5 buc.; - Dulap medicamente: 1 buc.; - Frigider medicamente: 1 buc., conform fișelor tehnice și a criteriului de atribuire pentru Lotul 5, pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate"
+        ]
+      },
+      "procedure-type": "open",
+      "deadline-receipt-tender-time-lot": [
+        "15:00:00+03:00",
+        "15:00:00+03:00",
+        "15:00:00+03:00",
+        "15:00:00+03:00",
+        "15:00:00+03:00"
+      ],
+      "classification-cpv": [
+        "33100000",
+        "33100000",
+        "33100000",
+        "33100000",
+        "33100000",
+        "33100000",
+        "79632000",
+        "79632000",
+        "79632000",
+        "79632000"
+      ],
+      "buyer-name": {
+        "ron": [
+          "JUDETUL CARAS-SEVERIN"
+        ]
+      },
+      "publication-date": "2026-09-30+02:00",
+      "estimated-value-proc": "3243807.59",
+      "links": {
+        "xml": {
+          "MUL": "https://ted.europa.eu/en/notice/670714-2026/xml"
+        },
+        "pdf": {
+          "BUL": "https://ted.europa.eu/bg/notice/670714-2026/pdf",
+          "SPA": "https://ted.europa.eu/es/notice/670714-2026/pdf",
+          "CES": "https://ted.europa.eu/cs/notice/670714-2026/pdf",
+          "DAN": "https://ted.europa.eu/da/notice/670714-2026/pdf",
+          "DEU": "https://ted.europa.eu/de/notice/670714-2026/pdf",
+          "EST": "https://ted.europa.eu/et/notice/670714-2026/pdf",
+          "ELL": "https://ted.europa.eu/el/notice/670714-2026/pdf",
+          "ENG": "https://ted.europa.eu/en/notice/670714-2026/pdf",
+          "FRA": "https://ted.europa.eu/fr/notice/670714-2026/pdf",
+          "GLE": "https://ted.europa.eu/ga/notice/670714-2026/pdf",
+          "HRV": "https://ted.europa.eu/hr/notice/670714-2026/pdf",
+          "ITA": "https://ted.europa.eu/it/notice/670714-2026/pdf",
+          "LAV": "https://ted.europa.eu/lv/notice/670714-2026/pdf",
+          "LIT": "https://ted.europa.eu/lt/notice/670714-2026/pdf",
+          "HUN": "https://ted.europa.eu/hu/notice/670714-2026/pdf",
+          "MLT": "https://ted.europa.eu/mt/notice/670714-2026/pdf",
+          "NLD": "https://ted.europa.eu/nl/notice/670714-2026/pdf",
+          "POL": "https://ted.europa.eu/pl/notice/670714-2026/pdf",
+          "POR": "https://ted.europa.eu/pt/notice/670714-2026/pdf",
+          "RON": "https://ted.europa.eu/ro/notice/670714-2026/pdf",
+          "SLK": "https://ted.europa.eu/sk/notice/670714-2026/pdf",
+          "SLV": "https://ted.europa.eu/sl/notice/670714-2026/pdf",
+          "FIN": "https://ted.europa.eu/fi/notice/670714-2026/pdf",
+          "SWE": "https://ted.europa.eu/sv/notice/670714-2026/pdf"
+        },
+        "pdfs": {
+          "RON": "https://ted.europa.eu/ro/notice/670714-2026/pdfs"
+        },
+        "html": {
+          "BUL": "https://ted.europa.eu/bg/notice/-/detail/670714-2026",
+          "SPA": "https://ted.europa.eu/es/notice/-/detail/670714-2026",
+          "CES": "https://ted.europa.eu/cs/notice/-/detail/670714-2026",
+          "DAN": "https://ted.europa.eu/da/notice/-/detail/670714-2026",
+          "DEU": "https://ted.europa.eu/de/notice/-/detail/670714-2026",
+          "EST": "https://ted.europa.eu/et/notice/-/detail/670714-2026",
+          "ELL": "https://ted.europa.eu/el/notice/-/detail/670714-2026",
+          "ENG": "https://ted.europa.eu/en/notice/-/detail/670714-2026",
+          "FRA": "https://ted.europa.eu/fr/notice/-/detail/670714-2026",
+          "GLE": "https://ted.europa.eu/ga/notice/-/detail/670714-2026",
+          "HRV": "https://ted.europa.eu/hr/notice/-/detail/670714-2026",
+          "ITA": "https://ted.europa.eu/it/notice/-/detail/670714-2026",
+          "LAV": "https://ted.europa.eu/lv/notice/-/detail/670714-2026",
+          "LIT": "https://ted.europa.eu/lt/notice/-/detail/670714-2026",
+          "HUN": "https://ted.europa.eu/hu/notice/-/detail/670714-2026",
+          "MLT": "https://ted.europa.eu/mt/notice/-/detail/670714-2026",
+          "NLD": "https://ted.europa.eu/nl/notice/-/detail/670714-2026",
+          "POL": "https://ted.europa.eu/pl/notice/-/detail/670714-2026",
+          "POR": "https://ted.europa.eu/pt/notice/-/detail/670714-2026",
+          "RON": "https://ted.europa.eu/ro/notice/-/detail/670714-2026",
+          "SLK": "https://ted.europa.eu/sk/notice/-/detail/670714-2026",
+          "SLV": "https://ted.europa.eu/sl/notice/-/detail/670714-2026",
+          "FIN": "https://ted.europa.eu/fi/notice/-/detail/670714-2026",
+          "SWE": "https://ted.europa.eu/sv/notice/-/detail/670714-2026"
+        },
+        "htmlDirect": {
+          "BUL": "https://ted.europa.eu/bg/notice/670714-2026/html",
+          "SPA": "https://ted.europa.eu/es/notice/670714-2026/html",
+          "CES": "https://ted.europa.eu/cs/notice/670714-2026/html",
+          "DAN": "https://ted.europa.eu/da/notice/670714-2026/html",
+          "DEU": "https://ted.europa.eu/de/notice/670714-2026/html",
+          "EST": "https://ted.europa.eu/et/notice/670714-2026/html",
+          "ELL": "https://ted.europa.eu/el/notice/670714-2026/html",
+          "ENG": "https://ted.europa.eu/en/notice/670714-2026/html",
+          "FRA": "https://ted.europa.eu/fr/notice/670714-2026/html",
+          "GLE": "https://ted.europa.eu/ga/notice/670714-2026/html",
+          "HRV": "https://ted.europa.eu/hr/notice/670714-2026/html",
+          "ITA": "https://ted.europa.eu/it/notice/670714-2026/html",
+          "LAV": "https://ted.europa.eu/lv/notice/670714-2026/html",
+          "LIT": "https://ted.europa.eu/lt/notice/670714-2026/html",
+          "HUN": "https://ted.europa.eu/hu/notice/670714-2026/html",
+          "MLT": "https://ted.europa.eu/mt/notice/670714-2026/html",
+          "NLD": "https://ted.europa.eu/nl/notice/670714-2026/html",
+          "POL": "https://ted.europa.eu/pl/notice/670714-2026/html",
+          "POR": "https://ted.europa.eu/pt/notice/670714-2026/html",
+          "RON": "https://ted.europa.eu/ro/notice/670714-2026/html",
+          "SLK": "https://ted.europa.eu/sk/notice/670714-2026/html",
+          "SLV": "https://ted.europa.eu/sl/notice/670714-2026/html",
+          "FIN": "https://ted.europa.eu/fi/notice/670714-2026/html",
+          "SWE": "https://ted.europa.eu/sv/notice/670714-2026/html"
+        }
+      },
+      "notice-title": {
+        "hun": "Románia – Orvosi felszerelések – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "lav": "Rumānija – Medicīniskās ierīces – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "swe": "Rumänien – Medicinsk utrustning – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "gle": "An Rómáin – Medical equipments – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "ell": "Ρουμανία – Ιατρικές συσκευές – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "spa": "Rumanía – Equipamiento médico – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "est": "Rumeenia – Meditsiiniseadmed – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "nld": "Roemenië – Medische apparatuur – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "fin": "Romania – Lääketieteelliset laitteet – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "pol": "Rumunia – Urządzenia medyczne – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "hrv": "Rumunjska – Medicinske naprave – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "ces": "Rumunsko – Zdravotnické přístroje – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "dan": "Rumænien – Medicinsk udstyr – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "ron": "România – Echipamente medicale – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "por": "Roménia – Equipamento médico – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "slk": "Rumunsko – Zdravotnícke vybavenie – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "fra": "Roumanie – Équipements médicaux – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "mlt": "Ir-Rumanija – Tagħmir mediku – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "deu": "Rumänien – Medizinische Geräte – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "lit": "Rumunija – Medicinos įranga – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "ita": "Romania – Apparecchiature mediche – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "bul": "Pyмъния – Медицинско оборудване – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "slv": "Romunija – Medicinska oprema – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate",
+        "eng": "Romania – Medical equipments – Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate"
+      },
+      "description-proc": {
+        "ron": "Furnizare echipamente medicale pentru tratarea pacienților critici cardiaci din cadrul proiectului „Infiintarea si dotarea cu echipamente medicale a USTACC din cadrul SJU Reșița” Apel proiecte,,Investiții de tip dotare în infrastructura unităților sanitare publice care tratează pacienți cardiaci critici”finanțat prin Programul Sănătate Achiziția se va realiza pe loturi, astfel: LOT 1: - Monitoare functii vitale multiparametru pacient critic: 5 buc.; - Stație centrală de monitorizare: 1 buc.; - Defibrilator bifazic cu pacemaker: 1 buc.; - Cărucior resuscitare -Troliu urgente complet cu trusa si defibrilator AED: 1 buc.; - Ventilatoare mecanice: 1 buc.; - Sistem de aspirare: 3 buc.; - Modul 6 injectomate si 2 infuzomate + statie: 5 buc.; - Electocardiograf cu carucior; 1 buc.; - Ecocardiograf cu sonda transesofagiana: 1 buc.; - Ecocardigraf portabil: 1 buc.; - Analizator portabil POCT (gazometrie, electroliți): 1 buc.; - Glucometru spitalicesc. 3 buc.; - Holter TA: 1 buc.; - Holter EKG: 1 buc.; - Test de efort: 1 buc. LOT 2: - Paturi speciale terapie intensivă: 5 buc.; - Carucior troliu medicamente: 1 buc.; - Targa cu butelie de O2 pentru pacient critic: 1 buc.; - Lampa articulara: 5 buc. LOT 3: - Stetoscop: 5 buc.; - Tensiometru: 5 buc. LOT 4: - Sursa de gaze medicinale la fiecare pat: 5 buc.; - Prize de aer comprimat 4atm: 5 buc.; - Priza de vacum 200mmHg: 5 buc. LOT 5: - Noptiere cu frigider: 5 buc.; - Dulap medicamente: 1 buc.; - Frigider medicamente: 1 buc. Orice operator economic interesat are dreptul de a solicita clarificări, sau informații suplimentare în legătură cu documentaţia de atribuire, cu respectarea termenului limită precizat de autoritatea contractantă, respectiv nu mai târziu de 18 zile înainte de termenul-limită stabilit pentru depunerea ofertelor. Solicitările de clarificări depuse după acest termen nu vor mai fi luate în considerare. Conform prevederilor art. 160-161 din Legea nr. 98/2016 privind achizițiile publice, cu modificările și completările ulterioare, autoritatea contractantă va răspunde în mod clar și complet tuturor solicitărilor de clarificare/informații suplimentare, în a 11-a zi înainte de termenul limită stabilit pentru depunerea ofertelor, în măsura în care acestea vor fi adresate în termenul prevăzut în anunțul de participare. Răspunsul consolidat la clarificările solicitate, va fi publicat în SEAP în cadrul anunțului de participare."
+      }
+    },
+    {
+      "notice-identifier": "06ef033c-79cd-4492-84bb-13220c65ae3a",
+      "deadline-receipt-tender-date-lot": [
+        "2026-10-13+02:00"
+      ],
+      "notice-type": "cn-standard",
+      "publication-number": "670715-2026",
+      "organisation-country-buyer": [
+        "HRV"
+      ],
+      "estimated-value-cur-proc": "EUR",
+      "description-lot": {
+        "hrv": [
+          "Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal"
+        ]
+      },
+      "procedure-type": "open",
+      "deadline-receipt-tender-time-lot": [
+        "16:00:00+02:00"
+      ],
+      "classification-cpv": [
+        "90721800",
+        "90721800"
+      ],
+      "buyer-name": {
+        "hrv": [
+          "Hrvatske vode, pravna osoba za upravljanje vodama"
+        ]
+      },
+      "publication-date": "2026-09-30+02:00",
+      "estimated-value-proc": "7203000",
+      "links": {
+        "xml": {
+          "MUL": "https://ted.europa.eu/en/notice/670715-2026/xml"
+        },
+        "pdf": {
+          "BUL": "https://ted.europa.eu/bg/notice/670715-2026/pdf",
+          "SPA": "https://ted.europa.eu/es/notice/670715-2026/pdf",
+          "CES": "https://ted.europa.eu/cs/notice/670715-2026/pdf",
+          "DAN": "https://ted.europa.eu/da/notice/670715-2026/pdf",
+          "DEU": "https://ted.europa.eu/de/notice/670715-2026/pdf",
+          "EST": "https://ted.europa.eu/et/notice/670715-2026/pdf",
+          "ELL": "https://ted.europa.eu/el/notice/670715-2026/pdf",
+          "ENG": "https://ted.europa.eu/en/notice/670715-2026/pdf",
+          "FRA": "https://ted.europa.eu/fr/notice/670715-2026/pdf",
+          "GLE": "https://ted.europa.eu/ga/notice/670715-2026/pdf",
+          "HRV": "https://ted.europa.eu/hr/notice/670715-2026/pdf",
+          "ITA": "https://ted.europa.eu/it/notice/670715-2026/pdf",
+          "LAV": "https://ted.europa.eu/lv/notice/670715-2026/pdf",
+          "LIT": "https://ted.europa.eu/lt/notice/670715-2026/pdf",
+          "HUN": "https://ted.europa.eu/hu/notice/670715-2026/pdf",
+          "MLT": "https://ted.europa.eu/mt/notice/670715-2026/pdf",
+          "NLD": "https://ted.europa.eu/nl/notice/670715-2026/pdf",
+          "POL": "https://ted.europa.eu/pl/notice/670715-2026/pdf",
+          "POR": "https://ted.europa.eu/pt/notice/670715-2026/pdf",
+          "RON": "https://ted.europa.eu/ro/notice/670715-2026/pdf",
+          "SLK": "https://ted.europa.eu/sk/notice/670715-2026/pdf",
+          "SLV": "https://ted.europa.eu/sl/notice/670715-2026/pdf",
+          "FIN": "https://ted.europa.eu/fi/notice/670715-2026/pdf",
+          "SWE": "https://ted.europa.eu/sv/notice/670715-2026/pdf"
+        },
+        "pdfs": {
+          "HRV": "https://ted.europa.eu/hr/notice/670715-2026/pdfs"
+        },
+        "html": {
+          "BUL": "https://ted.europa.eu/bg/notice/-/detail/670715-2026",
+          "SPA": "https://ted.europa.eu/es/notice/-/detail/670715-2026",
+          "CES": "https://ted.europa.eu/cs/notice/-/detail/670715-2026",
+          "DAN": "https://ted.europa.eu/da/notice/-/detail/670715-2026",
+          "DEU": "https://ted.europa.eu/de/notice/-/detail/670715-2026",
+          "EST": "https://ted.europa.eu/et/notice/-/detail/670715-2026",
+          "ELL": "https://ted.europa.eu/el/notice/-/detail/670715-2026",
+          "ENG": "https://ted.europa.eu/en/notice/-/detail/670715-2026",
+          "FRA": "https://ted.europa.eu/fr/notice/-/detail/670715-2026",
+          "GLE": "https://ted.europa.eu/ga/notice/-/detail/670715-2026",
+          "HRV": "https://ted.europa.eu/hr/notice/-/detail/670715-2026",
+          "ITA": "https://ted.europa.eu/it/notice/-/detail/670715-2026",
+          "LAV": "https://ted.europa.eu/lv/notice/-/detail/670715-2026",
+          "LIT": "https://ted.europa.eu/lt/notice/-/detail/670715-2026",
+          "HUN": "https://ted.europa.eu/hu/notice/-/detail/670715-2026",
+          "MLT": "https://ted.europa.eu/mt/notice/-/detail/670715-2026",
+          "NLD": "https://ted.europa.eu/nl/notice/-/detail/670715-2026",
+          "POL": "https://ted.europa.eu/pl/notice/-/detail/670715-2026",
+          "POR": "https://ted.europa.eu/pt/notice/-/detail/670715-2026",
+          "RON": "https://ted.europa.eu/ro/notice/-/detail/670715-2026",
+          "SLK": "https://ted.europa.eu/sk/notice/-/detail/670715-2026",
+          "SLV": "https://ted.europa.eu/sl/notice/-/detail/670715-2026",
+          "FIN": "https://ted.europa.eu/fi/notice/-/detail/670715-2026",
+          "SWE": "https://ted.europa.eu/sv/notice/-/detail/670715-2026"
+        },
+        "htmlDirect": {
+          "BUL": "https://ted.europa.eu/bg/notice/670715-2026/html",
+          "SPA": "https://ted.europa.eu/es/notice/670715-2026/html",
+          "CES": "https://ted.europa.eu/cs/notice/670715-2026/html",
+          "DAN": "https://ted.europa.eu/da/notice/670715-2026/html",
+          "DEU": "https://ted.europa.eu/de/notice/670715-2026/html",
+          "EST": "https://ted.europa.eu/et/notice/670715-2026/html",
+          "ELL": "https://ted.europa.eu/el/notice/670715-2026/html",
+          "ENG": "https://ted.europa.eu/en/notice/670715-2026/html",
+          "FRA": "https://ted.europa.eu/fr/notice/670715-2026/html",
+          "GLE": "https://ted.europa.eu/ga/notice/670715-2026/html",
+          "HRV": "https://ted.europa.eu/hr/notice/670715-2026/html",
+          "ITA": "https://ted.europa.eu/it/notice/670715-2026/html",
+          "LAV": "https://ted.europa.eu/lv/notice/670715-2026/html",
+          "LIT": "https://ted.europa.eu/lt/notice/670715-2026/html",
+          "HUN": "https://ted.europa.eu/hu/notice/670715-2026/html",
+          "MLT": "https://ted.europa.eu/mt/notice/670715-2026/html",
+          "NLD": "https://ted.europa.eu/nl/notice/670715-2026/html",
+          "POL": "https://ted.europa.eu/pl/notice/670715-2026/html",
+          "POR": "https://ted.europa.eu/pt/notice/670715-2026/html",
+          "RON": "https://ted.europa.eu/ro/notice/670715-2026/html",
+          "SLK": "https://ted.europa.eu/sk/notice/670715-2026/html",
+          "SLV": "https://ted.europa.eu/sl/notice/670715-2026/html",
+          "FIN": "https://ted.europa.eu/fi/notice/670715-2026/html",
+          "SWE": "https://ted.europa.eu/sv/notice/670715-2026/html"
+        }
+      },
+      "notice-title": {
+        "hun": "Horvátország – Természeti kockázatok vagy veszélyek elleni védekezéssel kapcsolatos szolgáltatások – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "lav": "Horvātija – Dabas risku vai draudu aizsardzības pakalpojumi – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "swe": "Kroatien – Skydd mot naturliga faror eller risker – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "gle": "An Chróit – Natural risks or hazards protection services – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "ell": "Κροατία – Υπηρεσίες προστασίας από φυσικούς υπαρκτούς ή δυνητικούς κινδύνους – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "spa": "Croacia – Servicios de protección contra los riesgos o peligros naturales – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "est": "Horvaatia – Loodusriskide või looduslike ohutegurite vastased kaitseteenused – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "nld": "Kroatië – Diensten voor bescherming tegen natuurlijke risico's of gevaren – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "fin": "Kroatia – Luonnollisilta riskeiltä tai vaaroilta suojaavat palvelut – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "pol": "Chorwacja – Usługi ochrony przed naturalnym ryzykiem lub zagrożeniami – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "hrv": "Hrvatska – Usluge zaštite od prirodnih nepogoda ili opasnosti – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "ces": "Chorvatsko – Ochrana před přírodními riziky a nebezpečími – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "dan": "Kroatien – Beskyttelse mod naturkatastrofer – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "ron": "Croaţia – Servicii de protecţie împotriva riscurilor sau a pericolelor naturale – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "por": "Croácia – Serviços de protecção contra riscos ou perigos naturais – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "slk": "Chorvátsko – Služby na ochranu pred prírodnými rizikami a nebezpečenstvami – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "fra": "Croatie – Services de protection contre les risques ou dangers naturels – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "mlt": "Il-Kroazja – Servizzi ta' ħarsien minn riskji jew perikli naturali – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "deu": "Kroatien – Schutz vor natürlichen Risiken oder Gefahren – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "lit": "Kroatija – Apsaugos nuo gamtinių pavojų paslaugos – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "ita": "Croazia – Servizi di protezione dai rischi naturali o dai pericoli – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "bul": "Хърватия – Услуги, свързани с предпазването от природни рискове или опасности – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "slv": "Hrvaška – Storitve zaščite pred tveganji ali nevarnostmi naravnih nesreč – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave",
+        "eng": "Croatia – Natural risks or hazards protection services – Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave"
+      },
+      "description-proc": {
+        "hrv": "Usluga preventivne, redovne i izvanredne obrane od poplava i leda na branjenom području br. 18: područje maloga sliva Županijski kanal, osim međudržavne rijeke Drave"
+      }
+    }
+  ],
+  "totalNoticeCount": 3512,
+  "iterationNextToken": null,
+  "timedOut": false
+}
