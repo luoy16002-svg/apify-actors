@@ -66,7 +66,7 @@ businesses show `Exempt` or `AwaitingInspection`. For the sub-scores, lower is b
 
 ## Pricing
 
-$0.80 per 1,000 businesses, plus a tiny start fee per run. Duplicates are free.
+$2.00 per 1,000 businesses, plus a tiny start fee per run. Duplicates are free.
 
 ## FAQ
 
