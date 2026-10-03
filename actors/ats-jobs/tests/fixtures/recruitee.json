@@ -1,0 +1,46 @@
+{
+  "country": "Finland",
+  "careers_apply_url": "https://happeo.recruitee.com/o/open-application/c/new",
+  "salary": {
+    "max": null,
+    "min": null,
+    "period": null,
+    "currency": null
+  },
+  "country_code": "FI",
+  "department": null,
+  "locations": [
+    {
+      "id": 204625,
+      "name": "Any",
+      "state": "Uusimaa",
+      "country": "Finland",
+      "city": "Helsinki",
+      "translations": {
+        "en": {
+          "name": "Any",
+          "city": "Helsinki",
+          "postal_code": null,
+          "street": null,
+          "note": "Any of our existing locations (Finland, Netherlands, Romania, UK, USA)"
+        }
+      },
+      "country_code": "FI",
+      "state_code": "18",
+      "postal_code": null,
+      "street": null,
+      "note": "Any of our existing locations (Finland, Netherlands, Romania, UK, USA)"
+    }
+  ],
+  "employment_type_code": "fulltime_permanent",
+  "updated_at": "2026-08-04 17:51:58 UTC",
+  "created_at": "2024-12-30 07:49:15 UTC",
+  "description": "<p>Synthetic fixture description.</p>",
+  "remote": false,
+  "city": "Helsinki",
+  "location": "Helsinki, Uusimaa, Finland",
+  "title": "Open application",
+  "id": 1966837,
+  "published_at": "2026-05-29 12:07:10 UTC",
+  "careers_url": "https://happeo.recruitee.com/o/open-application"
+}

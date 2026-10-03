@@ -1,0 +1,7 @@
+storage/
+qa/
+tests/
+__pycache__/
+.pytest_cache/
+NOTES-*
+*.log

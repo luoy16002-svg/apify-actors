@@ -1,0 +1,99 @@
+{
+  "command": "python -B -m src --input qa/final-smoke-input.json",
+  "exitCode": 0,
+  "seconds": 5.003,
+  "peakProcessTreeRssMB": 138.4,
+  "memoryMethod": "Sampled Windows process-tree RSS every 200 ms; shared pages can be double-counted.",
+  "rows": 3,
+  "output": {
+    "items": 3,
+    "sites": [
+      {
+        "url": "https://nextjs.org/",
+        "saved": true,
+        "technologies": 6,
+        "regexTimeouts": 0,
+        "unsupportedPatterns": 0,
+        "matchSeconds": 0.435,
+        "observations": {
+          "nextAssets": "/_next/",
+          "assetHints": [
+            "/_next/static/immutable/media/vercel-logotype-light.0k7echqflwha4.svg",
+            "/_next/static/immutable/media/vercel-logotype-dark.3m9ycmsc1ql8m.svg",
+            "/_next/static/immutable/media/logo-twitter-x-light.0dvkch_c5dvys.svg",
+            "/_next/static/immutable/media/logo-twitter-x-dark.1-i769nzu94hl.svg",
+            "/_next/static/immutable/media/logo-bluesky-light.2may7hm2y7g6v.svg",
+            "/_next/static/immutable/media/logo-bluesky-dark.39tbulfg2p-1z.svg",
+            "/_next/static/immutable/chunks/21h1ctucpphw6.css",
+            "/_next/static/immutable/chunks/3bomqsbd2-f_f.css"
+          ],
+          "header:server": "Vercel",
+          "header:x-powered-by": "Next.js",
+          "header:x-vercel-id": "present"
+        },
+        "jsGlobalsObserved": 0,
+        "seconds": 1.92
+      },
+      {
+        "url": "https://wordpress.org/",
+        "saved": true,
+        "technologies": 9,
+        "regexTimeouts": 1,
+        "unsupportedPatterns": 0,
+        "matchSeconds": 0.1465,
+        "observations": {
+          "wordpressAssets": "wp-content/",
+          "meta:generator": [
+            "WordPress 7.2-alpha-64071"
+          ],
+          "assetHints": [
+            "https://wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/Inter/Inter-latin.woff2",
+            "https://wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/EB-Garamond/EBGaramond-latin.woff2",
+            "https://wordpress.org/wp-content/plugins/gutenberg/build/styles/block-library/navigation/style.min.css",
+            "https://wordpress.org/wp-content/plugins/gutenberg/build/styles/block-library/social-links/style.min.css",
+            "https://wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/style.css",
+            "https://wordpress.org/wp-content/themes/wporg-parent-2021/build/block-styles.css",
+            "https://wordpress.org/wp-content/themes/wporg-parent-2021/build/style.css",
+            "https://wordpress.org/wp-content/themes/wporg-main-2022/build/style/style-index.css"
+          ],
+          "header:server": "nginx"
+        },
+        "jsGlobalsObserved": 0,
+        "seconds": 2.317
+      },
+      {
+        "url": "https://www.allbirds.com/",
+        "saved": true,
+        "technologies": 5,
+        "regexTimeouts": 11,
+        "unsupportedPatterns": 0,
+        "matchSeconds": 0.6873,
+        "observations": {
+          "shopifyAssets": "cdn.shopify.com",
+          "assetHints": [
+            "https://cdn.shopify.com/s/files/1/1104/4168/files/jsEncrypt.js",
+            "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+            "//www.allbirds.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+            "//www.allbirds.com/cdn/shopifycloud/storefront/assets/shopify_pay/storefront-616277c7.js",
+            "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+            "https://www.allbirds.com/cdn/shopifycloud/privacy-banner/storefront-banner.js",
+            "//www.allbirds.com/cdn/shopifycloud/storefront/assets/storefront/remote_product_tracking-91d95044.js",
+            "https://www.allbirds.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css"
+          ],
+          "header:server": "cloudflare"
+        },
+        "jsGlobalsObserved": 0,
+        "seconds": 2.457
+      }
+    ],
+    "fingerprints": {
+      "cacheHit": true,
+      "requests": 0,
+      "commit": "eea872af449e207e055398f7369d11ee48c8ea03"
+    },
+    "databaseTechnologies": 7628,
+    "finishedAt": "2026-10-03T05:35:20Z"
+  },
+  "taskOwnedProcessesTerminatedAfterExit": [],
+  "cleanupChecked": true
+}

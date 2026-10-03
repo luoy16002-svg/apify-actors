@@ -1,0 +1,40 @@
+{
+  "additional": "<p>Synthetic fixture description.</p>",
+  "categories": {
+    "commitment": "Full-time",
+    "department": "Software",
+    "location": "Foster City, CA",
+    "team": "Software Platforms and Product",
+    "allLocations": [
+      "Foster City, CA"
+    ]
+  },
+  "createdAt": 1777936261125,
+  "description": "<p>Synthetic fixture description.</p>",
+  "id": "f4746da4-8eb8-43e2-b7ce-bf3c7cf9640d",
+  "lists": [
+    {
+      "text": "In this role, you will: ",
+      "content": "<p>Synthetic fixture description.</p>"
+    },
+    {
+      "text": "Qualifications: ",
+      "content": "<p>Synthetic fixture description.</p>"
+    },
+    {
+      "text": "Bonus Qualifications: ",
+      "content": "<p>Synthetic fixture description.</p>"
+    }
+  ],
+  "salaryRange": {
+    "currency": "USD",
+    "interval": "per-year-salary",
+    "min": 144000,
+    "max": 193000
+  },
+  "text": "Autonomy System Test Engineer",
+  "country": "US",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/zoox/f4746da4-8eb8-43e2-b7ce-bf3c7cf9640d",
+  "applyUrl": "https://jobs.lever.co/zoox/f4746da4-8eb8-43e2-b7ce-bf3c7cf9640d/apply"
+}

@@ -1,0 +1,7 @@
+{
+  "companies": [
+    "https://jobs.lever.co/spotify"
+  ],
+  "maxJobsPerCompany": 3,
+  "maxItems": 3
+}

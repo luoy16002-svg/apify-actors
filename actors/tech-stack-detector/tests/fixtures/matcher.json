@@ -1,0 +1,11 @@
+{
+  "note": "Original synthetic test data. No upstream fingerprint database is vendored.",
+  "categories": {"1": {"name": "CMS"}, "10": {"name": "Analytics"}, "27": {"name": "Programming languages"}},
+  "technologies": {
+    "SyntheticCMS": {"cats": [1], "website": "https://example.org/cms", "meta": {"generator": "SyntheticCMS ([0-9.]+)\\;version:\\1"}, "implies": ["Runtime\\;confidence:50"]},
+    "Runtime": {"cats": [27], "website": "https://example.org/runtime"},
+    "Analytics": {"cats": [10], "website": "https://example.org/analytics", "scriptSrc": "analytics\\.js\\;confidence:50", "cookies": {"_analytics": "\\;confidence:50"}},
+    "Plugin": {"cats": [1], "website": "https://example.org/plugin", "html": "data-plugin", "requires": ["SyntheticCMS"]}
+  },
+  "html": "<meta name='generator' content='SyntheticCMS 2.4.1'><script src='/analytics.js'></script><script src='/analytics.js'></script><div data-plugin></div>"
+}

@@ -1,0 +1,57 @@
+{
+  "command": "python -B -m src --input qa/ashby-input.json",
+  "exitCode": 0,
+  "seconds": 4.366,
+  "peakProcessTreeRssMB": 90.9,
+  "memoryMethod": "Sampled Windows process-tree RSS every 200 ms; shared pages can be double-counted.",
+  "rows": 80,
+  "output": {
+    "items": 80,
+    "duplicates": 0,
+    "companies": [
+      {
+        "input": {
+          "url": "https://jobs.ashbyhq.com/linear"
+        },
+        "saved": 30,
+        "sourceRows": 30,
+        "sourceTotal": 30,
+        "filtered": 0,
+        "duplicates": 0,
+        "pages": 1,
+        "malformed": 0,
+        "detailErrors": [],
+        "complete": true,
+        "ats": "ashby",
+        "board": "linear",
+        "careersUrl": "https://jobs.ashbyhq.com/linear",
+        "stopReason": "source_exhausted",
+        "seconds": 1.722
+      },
+      {
+        "input": {
+          "url": "https://jobs.ashbyhq.com/ashby"
+        },
+        "saved": 50,
+        "sourceRows": 62,
+        "sourceTotal": 62,
+        "filtered": 0,
+        "duplicates": 0,
+        "pages": 1,
+        "malformed": 0,
+        "detailErrors": [],
+        "complete": false,
+        "ats": "ashby",
+        "board": "ashby",
+        "careersUrl": "https://jobs.ashbyhq.com/ashby",
+        "stopReason": "item_or_budget_limit",
+        "seconds": 1.269
+      }
+    ],
+    "requests": 3,
+    "retries": 0,
+    "finishedAt": "2026-10-03T05:55:20Z"
+  },
+  "taskOwnedProcessesTerminatedAfterExit": [],
+  "cleanupChecked": true
+}

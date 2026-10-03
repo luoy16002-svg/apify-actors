@@ -1,0 +1,66 @@
+{
+  "command": "python -B -m src --input qa/final-smoke-input.json",
+  "exitCode": 0,
+  "seconds": 11.033,
+  "peakProcessTreeRssMB": 552.0,
+  "memoryMethod": "Sampled Windows process-tree RSS every 200 ms; shared pages can be double-counted.",
+  "rows": 3,
+  "output": {
+    "items": 3,
+    "pages": [
+      {
+        "url": "https://example.com/",
+        "peakProcessTreeRssMB": 445.6,
+        "saved": true,
+        "hiddenBanners": 0,
+        "requests": 2,
+        "blockedResources": 0,
+        "blockedAds": 0,
+        "crashRetries": 0,
+        "images": {
+          "total": 0,
+          "pending": 0,
+          "broken": 0
+        },
+        "seconds": 2.469
+      },
+      {
+        "url": "https://books.toscrape.com/",
+        "peakProcessTreeRssMB": 537.5,
+        "saved": true,
+        "hiddenBanners": 0,
+        "requests": 30,
+        "blockedResources": 0,
+        "blockedAds": 0,
+        "crashRetries": 0,
+        "images": {
+          "total": 20,
+          "pending": 0,
+          "broken": 0
+        },
+        "seconds": 4.534
+      },
+      {
+        "url": "https://commission.europa.eu/news-and-media_en",
+        "peakProcessTreeRssMB": 557.4,
+        "saved": true,
+        "hiddenBanners": 1,
+        "requests": 56,
+        "blockedResources": 3,
+        "blockedAds": 0,
+        "crashRetries": 0,
+        "images": {
+          "total": 11,
+          "pending": 0,
+          "broken": 0
+        },
+        "seconds": 7.111
+      }
+    ],
+    "browserRestarts": 0,
+    "memoryMeasurement": "Sampled process-tree RSS; includes other concurrent pages and shared pages.",
+    "finishedAt": "2026-10-03T05:35:32Z"
+  },
+  "taskOwnedProcessesTerminatedAfterExit": [],
+  "cleanupChecked": true
+}

@@ -1,0 +1,95 @@
+{
+  "title": "ATS Jobs — Seven Public Career Systems",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "companies": {
+      "title": "Companies",
+      "type": "array",
+      "description": "Up to 50 ATS board URLs, slugs, or objects with url/slug, ats, website, name, and region. An own website is fetched once to detect embedded ATS URLs.",
+      "editor": "json",
+      "minItems": 1,
+      "maxItems": 50,
+      "prefill": [
+        "https://jobs.lever.co/spotify"
+      ]
+    },
+    "titleContains": {
+      "title": "titleContains",
+      "type": "string",
+      "description": "Case-insensitive title substring.",
+      "editor": "textfield"
+    },
+    "locationContains": {
+      "title": "locationContains",
+      "type": "string",
+      "description": "Case-insensitive location substring.",
+      "editor": "textfield"
+    },
+    "department": {
+      "title": "department",
+      "type": "string",
+      "description": "Case-insensitive department substring.",
+      "editor": "textfield"
+    },
+    "postedAfter": {
+      "title": "postedAfter",
+      "type": "string",
+      "description": "Exclusive YYYY-MM-DD date; jobs with unknown dates are excluded.",
+      "editor": "textfield"
+    },
+    "remoteOnly": {
+      "title": "Remote only",
+      "type": "boolean",
+      "description": "Include only explicitly remote jobs. Unknown remote status is excluded.",
+      "editor": "checkbox"
+    },
+    "maxJobsPerCompany": {
+      "title": "maxJobsPerCompany",
+      "type": "integer",
+      "description": "Runtime default 1000. Limits can make results incomplete; see OUTPUT.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 10000,
+      "prefill": 1000
+    },
+    "maxItems": {
+      "title": "maxItems",
+      "type": "integer",
+      "description": "Runtime default 10000. Limits can make results incomplete; see OUTPUT.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 50000,
+      "prefill": 10000
+    },
+    "pageSize": {
+      "title": "pageSize",
+      "type": "integer",
+      "description": "Runtime default 100. Limits can make results incomplete; see OUTPUT.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 100,
+      "prefill": 100
+    },
+    "maxPages": {
+      "title": "maxPages",
+      "type": "integer",
+      "description": "Runtime default 100. Limits can make results incomplete; see OUTPUT.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 500,
+      "prefill": 100
+    },
+    "requestDelaySeconds": {
+      "title": "Request interval",
+      "type": "number",
+      "description": "Minimum seconds per origin; runtime default 1.2.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 30
+    }
+  },
+  "required": [
+    "companies"
+  ]
+}

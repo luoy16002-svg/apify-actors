@@ -1,0 +1,411 @@
+[
+  {
+    "url": "https://nextjs.org/",
+    "finalUrl": "https://nextjs.org/",
+    "statusCode": 200,
+    "status": "ok",
+    "technologies": [
+      {
+        "name": "HSTS",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 16,
+            "name": "Security"
+          }
+        ],
+        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+        "evidence": [
+          "headers:strict-transport-security"
+        ]
+      },
+      {
+        "name": "HTTP/3",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 19,
+            "name": "Miscellaneous"
+          }
+        ],
+        "website": "https://httpwg.org/",
+        "evidence": [
+          "headers:alt-svc"
+        ]
+      },
+      {
+        "name": "Next.js",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 12,
+            "name": "JavaScript frameworks"
+          },
+          {
+            "id": 18,
+            "name": "Web frameworks"
+          },
+          {
+            "id": 22,
+            "name": "Web servers"
+          },
+          {
+            "id": 57,
+            "name": "Static site generator"
+          }
+        ],
+        "website": "https://nextjs.org",
+        "evidence": [
+          "headers:x-powered-by"
+        ]
+      },
+      {
+        "name": "React",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 12,
+            "name": "JavaScript frameworks"
+          }
+        ],
+        "website": "https://reactjs.org",
+        "evidence": [
+          "html"
+        ]
+      },
+      {
+        "name": "Vercel",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 62,
+            "name": "PaaS"
+          }
+        ],
+        "website": "https://vercel.com",
+        "evidence": [
+          "headers:server",
+          "headers:x-vercel-cache",
+          "headers:x-vercel-id"
+        ]
+      },
+      {
+        "name": "Webpack",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 19,
+            "name": "Miscellaneous"
+          }
+        ],
+        "website": "https://webpack.js.org/",
+        "evidence": [
+          "implied:Next.js"
+        ]
+      }
+    ],
+    "cms": [],
+    "ecommerce": [],
+    "analytics": [],
+    "frameworks": [
+      "Next.js",
+      "React"
+    ],
+    "cdn": [],
+    "hosting": [
+      "Vercel"
+    ],
+    "programmingLanguages": [],
+    "fingerprintCommit": "eea872af449e207e055398f7369d11ee48c8ea03",
+    "fingerprintLicense": "GPL-3.0",
+    "rendered": false,
+    "fetchedAt": "2026-10-03T05:35:20Z",
+    "warnings": []
+  },
+  {
+    "url": "https://wordpress.org/",
+    "finalUrl": "https://wordpress.org/",
+    "statusCode": 200,
+    "status": "partial",
+    "technologies": [
+      {
+        "name": "Google Tag Manager",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 42,
+            "name": "Tag managers"
+          }
+        ],
+        "website": "https://www.google.com/tagmanager",
+        "evidence": [
+          "html"
+        ]
+      },
+      {
+        "name": "Gutenberg",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 87,
+            "name": "WordPress plugins"
+          },
+          {
+            "id": 20,
+            "name": "Editors"
+          }
+        ],
+        "website": "https://github.com/WordPress/gutenberg",
+        "evidence": [
+          "scriptSrc"
+        ]
+      },
+      {
+        "name": "HSTS",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 16,
+            "name": "Security"
+          }
+        ],
+        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+        "evidence": [
+          "headers:strict-transport-security"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 34,
+            "name": "Databases"
+          }
+        ],
+        "website": "https://mysql.com",
+        "evidence": [
+          "implied:WordPress"
+        ]
+      },
+      {
+        "name": "Nginx",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 22,
+            "name": "Web servers"
+          },
+          {
+            "id": 64,
+            "name": "Reverse proxies"
+          }
+        ],
+        "website": "https://nginx.org/en",
+        "evidence": [
+          "headers:server"
+        ]
+      },
+      {
+        "name": "PHP",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 27,
+            "name": "Programming languages"
+          }
+        ],
+        "website": "https://php.net",
+        "evidence": [
+          "scripts"
+        ]
+      },
+      {
+        "name": "WordPress",
+        "version": "7.2",
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 1,
+            "name": "CMS"
+          },
+          {
+            "id": 11,
+            "name": "Blogs"
+          }
+        ],
+        "website": "https://wordpress.org",
+        "evidence": [
+          "headers:link",
+          "html",
+          "meta:generator",
+          "scriptSrc"
+        ]
+      },
+      {
+        "name": "WordPress Block Editor",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 51,
+            "name": "Page builders"
+          }
+        ],
+        "website": "https://wordpress.org/gutenberg/",
+        "evidence": [
+          "html"
+        ]
+      },
+      {
+        "name": "WordPress Site Editor",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 51,
+            "name": "Page builders"
+          }
+        ],
+        "website": "https://wordpress.org/documentation/article/site-editor/",
+        "evidence": [
+          "html"
+        ]
+      }
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "ecommerce": [],
+    "analytics": [],
+    "frameworks": [],
+    "cdn": [],
+    "hosting": [],
+    "programmingLanguages": [
+      "PHP"
+    ],
+    "fingerprintCommit": "eea872af449e207e055398f7369d11ee48c8ea03",
+    "fingerprintLicense": "GPL-3.0",
+    "rendered": false,
+    "fetchedAt": "2026-10-03T05:35:20Z",
+    "warnings": [
+      "Matcher skipped 1 timed-out matches; 0 unsupported patterns."
+    ]
+  },
+  {
+    "url": "https://www.allbirds.com/",
+    "finalUrl": "https://www.allbirds.com/",
+    "statusCode": 200,
+    "status": "partial",
+    "technologies": [
+      {
+        "name": "Cloudflare",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 31,
+            "name": "CDN"
+          }
+        ],
+        "website": "https://www.cloudflare.com",
+        "evidence": [
+          "headers:cf-cache-status",
+          "headers:cf-ray",
+          "headers:server"
+        ]
+      },
+      {
+        "name": "Google Tag Manager",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 42,
+            "name": "Tag managers"
+          }
+        ],
+        "website": "https://www.google.com/tagmanager",
+        "evidence": [
+          "html"
+        ]
+      },
+      {
+        "name": "HSTS",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 16,
+            "name": "Security"
+          }
+        ],
+        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+        "evidence": [
+          "headers:strict-transport-security"
+        ]
+      },
+      {
+        "name": "HTTP/3",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 19,
+            "name": "Miscellaneous"
+          }
+        ],
+        "website": "https://httpwg.org/",
+        "evidence": [
+          "headers:alt-svc"
+        ]
+      },
+      {
+        "name": "Shopify",
+        "version": null,
+        "confidence": 100,
+        "categories": [
+          {
+            "id": 6,
+            "name": "Ecommerce"
+          }
+        ],
+        "website": "https://shopify.com",
+        "evidence": [
+          "meta:shopify-digital-wallet",
+          "scriptSrc"
+        ]
+      }
+    ],
+    "cms": [],
+    "ecommerce": [
+      "Shopify"
+    ],
+    "analytics": [],
+    "frameworks": [],
+    "cdn": [
+      "Cloudflare"
+    ],
+    "hosting": [],
+    "programmingLanguages": [],
+    "fingerprintCommit": "eea872af449e207e055398f7369d11ee48c8ea03",
+    "fingerprintLicense": "GPL-3.0",
+    "rendered": false,
+    "fetchedAt": "2026-10-03T05:35:20Z",
+    "warnings": [
+      "Matcher skipped 11 timed-out matches; 0 unsupported patterns."
+    ]
+  }
+]
