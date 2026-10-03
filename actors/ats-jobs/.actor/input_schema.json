@@ -1,12 +1,12 @@
 {
-  "title": "ATS Jobs — Seven Public Career Systems",
+  "title": "Career Page Jobs",
   "type": "object",
   "schemaVersion": 1,
   "properties": {
     "companies": {
-      "title": "Companies",
+      "title": "Career pages",
       "type": "array",
-      "description": "Up to 50 ATS board URLs, slugs, or objects with url/slug, ats, website, name, and region. An own website is fetched once to detect embedded ATS URLs.",
+      "description": "Up to 50 job boards. Paste a Greenhouse, Lever, Ashby, Workable, Recruitee or Personio board URL, or a company's own careers page and the actor finds the board it embeds.",
       "editor": "json",
       "minItems": 1,
       "maxItems": 50,
@@ -15,75 +15,75 @@
       ]
     },
     "titleContains": {
-      "title": "titleContains",
+      "title": "Job title contains",
       "type": "string",
-      "description": "Case-insensitive title substring.",
+      "description": "Keep only jobs whose title contains this text, for example \"engineer\". Not case sensitive.",
       "editor": "textfield"
     },
     "locationContains": {
-      "title": "locationContains",
+      "title": "Location contains",
       "type": "string",
-      "description": "Case-insensitive location substring.",
+      "description": "Keep only jobs whose location contains this text, for example \"London\" or \"Remote\".",
       "editor": "textfield"
     },
     "department": {
-      "title": "department",
+      "title": "Department contains",
       "type": "string",
-      "description": "Case-insensitive department substring.",
+      "description": "Keep only jobs whose department or team contains this text.",
       "editor": "textfield"
     },
     "postedAfter": {
-      "title": "postedAfter",
+      "title": "Posted after",
       "type": "string",
-      "description": "Exclusive YYYY-MM-DD date; jobs with unknown dates are excluded.",
+      "description": "Date in YYYY-MM-DD format. Jobs posted on or before this date, and jobs without a posting date, are left out.",
       "editor": "textfield"
     },
     "remoteOnly": {
-      "title": "Remote only",
+      "title": "Remote jobs only",
       "type": "boolean",
-      "description": "Include only explicitly remote jobs. Unknown remote status is excluded.",
+      "description": "Keep only jobs the board marks as remote.",
       "editor": "checkbox"
     },
     "maxJobsPerCompany": {
-      "title": "maxJobsPerCompany",
+      "title": "Max jobs per company",
       "type": "integer",
-      "description": "Runtime default 1000. Limits can make results incomplete; see OUTPUT.",
+      "description": "Stop collecting a board after this many jobs. Leave empty for 1,000.",
       "editor": "number",
       "minimum": 1,
       "maximum": 10000,
       "prefill": 1000
     },
     "maxItems": {
-      "title": "maxItems",
+      "title": "Max jobs in total",
       "type": "integer",
-      "description": "Runtime default 10000. Limits can make results incomplete; see OUTPUT.",
+      "description": "Stop the run after this many jobs across all boards. Leave empty for 10,000.",
       "editor": "number",
       "minimum": 1,
       "maximum": 50000,
       "prefill": 10000
     },
     "pageSize": {
-      "title": "pageSize",
+      "title": "Page size",
       "type": "integer",
-      "description": "Runtime default 100. Limits can make results incomplete; see OUTPUT.",
+      "description": "Jobs requested per page on boards that paginate. Leave empty for 100.",
       "editor": "number",
       "minimum": 1,
       "maximum": 100,
       "prefill": 100
     },
     "maxPages": {
-      "title": "maxPages",
+      "title": "Max pages per board",
       "type": "integer",
-      "description": "Runtime default 100. Limits can make results incomplete; see OUTPUT.",
+      "description": "Safety limit for paginated boards. Leave empty for 100.",
       "editor": "number",
       "minimum": 1,
       "maximum": 500,
       "prefill": 100
     },
     "requestDelaySeconds": {
-      "title": "Request interval",
+      "title": "Pause between requests (seconds)",
       "type": "number",
-      "description": "Minimum seconds per origin; runtime default 1.2.",
+      "description": "Minimum wait between two requests to the same site. Leave empty for 1.2 seconds.",
       "editor": "number",
       "minimum": 1,
       "maximum": 30

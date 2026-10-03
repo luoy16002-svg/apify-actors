@@ -6,7 +6,7 @@
     "urls": {
       "title": "URLs",
       "type": "array",
-      "description": "Public HTTP(S) pages; duplicates are removed before capture.",
+      "description": "Public web pages to capture. Duplicates are skipped.",
       "editor": "stringList",
       "items": {
         "type": "string"
@@ -18,9 +18,9 @@
       ]
     },
     "viewport": {
-      "title": "Viewport preset",
+      "title": "Device",
       "type": "string",
-      "description": "Runtime default desktop. Mobile uses a mobile UA, touch, and device scale 3.",
+      "description": "Desktop, tablet or mobile size, or Custom to set your own width and height. Mobile pages are rendered with a phone user agent and touch support.",
       "editor": "select",
       "enum": [
         "desktop",
@@ -28,20 +28,27 @@
         "tablet",
         "mobile",
         "custom"
+      ],
+      "enumTitles": [
+        "Desktop",
+        "Laptop",
+        "Tablet",
+        "Mobile",
+        "Custom size"
       ]
     },
     "width": {
-      "title": "Custom width",
+      "title": "Custom width (px)",
       "type": "integer",
-      "description": "Used with the custom preset.",
+      "description": "Used only when Device is Custom.",
       "editor": "number",
       "minimum": 320,
       "maximum": 3840
     },
     "height": {
-      "title": "Custom height",
+      "title": "Custom height (px)",
       "type": "integer",
-      "description": "Used with the custom preset.",
+      "description": "Used only when Device is Custom.",
       "editor": "number",
       "minimum": 320,
       "maximum": 2160
@@ -49,18 +56,23 @@
     "format": {
       "title": "Image format",
       "type": "string",
-      "description": "Runtime default png. WebP is converted from lossless PNG.",
+      "description": "PNG by default. JPEG and WebP files are smaller.",
       "editor": "select",
       "enum": [
         "png",
         "jpeg",
         "webp"
+      ],
+      "enumTitles": [
+        "PNG",
+        "JPEG",
+        "WebP"
       ]
     },
     "quality": {
-      "title": "Quality",
+      "title": "Image quality",
       "type": "integer",
-      "description": "JPEG/WebP only; runtime default 85.",
+      "description": "JPEG and WebP only, 1 to 100. Default 85.",
       "editor": "number",
       "minimum": 1,
       "maximum": 100
@@ -68,29 +80,39 @@
     "pdfFormat": {
       "title": "PDF paper size",
       "type": "string",
-      "description": "Runtime default A4; PDF includes the whole page even for element images.",
+      "description": "A4 by default. The PDF always contains the whole page.",
       "editor": "select",
       "enum": [
+        "A4",
+        "Letter"
+      ],
+      "enumTitles": [
         "A4",
         "Letter"
       ]
     },
     "waitStrategy": {
-      "title": "Wait strategy",
+      "title": "Wait until",
       "type": "string",
-      "description": "Runtime default load; networkidle may time out on pages with background traffic.",
+      "description": "When to take the shot: after the page load event (default), when the network goes quiet, after a fixed delay, or when a CSS selector appears.",
       "editor": "select",
       "enum": [
         "load",
         "networkidle",
         "fixed",
         "selector"
+      ],
+      "enumTitles": [
+        "Page load event",
+        "Network goes quiet",
+        "Fixed delay",
+        "CSS selector appears"
       ]
     },
     "waitDelaySeconds": {
-      "title": "Fixed delay",
+      "title": "Fixed delay (seconds)",
       "type": "number",
-      "description": "Used by fixed strategy; runtime default 2.",
+      "description": "Used with the fixed delay option. Default 2 seconds.",
       "editor": "number",
       "minimum": 0,
       "maximum": 20
@@ -98,77 +120,77 @@
     "waitSelector": {
       "title": "Wait for CSS selector",
       "type": "string",
-      "description": "Required with selector strategy.",
+      "description": "Used with the selector option, for example \"#main\" or \".price\".",
       "editor": "textfield"
     },
     "elementSelector": {
-      "title": "Element CSS selector",
+      "title": "Capture one element",
       "type": "string",
-      "description": "Optional: capture only the first matching visible element.",
+      "description": "Optional CSS selector. The image then shows only the first visible matching element.",
       "editor": "textfield"
     },
     "css": {
       "title": "Custom CSS",
       "type": "string",
-      "description": "Optional CSS only, at most 20,000 characters; no JavaScript.",
+      "description": "Optional CSS injected before capture, for example to hide a chat widget. Up to 20,000 characters.",
       "editor": "textarea"
     },
     "timeoutSeconds": {
-      "title": "Per-page timeout",
+      "title": "Timeout per page (seconds)",
       "type": "integer",
-      "description": "Runtime default 60; includes robots checks, loading and capture.",
+      "description": "How long one page may take, including loading and capture. Default 60.",
       "editor": "number",
       "minimum": 5,
       "maximum": 180
     },
     "maxConcurrency": {
-      "title": "Concurrent pages",
+      "title": "Pages at the same time",
       "type": "integer",
-      "description": "Runtime default 2; all pages share one browser.",
+      "description": "How many pages are captured in parallel. Default 2.",
       "editor": "number",
       "minimum": 1,
       "maximum": 3
     },
     "fullPage": {
-      "title": "fullPage",
+      "title": "Full-page screenshot",
       "type": "boolean",
-      "description": "Runtime default true. Ignored for element capture.",
+      "description": "Capture the whole scrollable page instead of only the visible window.",
       "editor": "checkbox"
     },
     "pdf": {
-      "title": "pdf",
+      "title": "Also save a PDF",
       "type": "boolean",
-      "description": "Also save a PDF; runtime default false.",
+      "description": "Save a PDF of each page next to the image.",
       "editor": "checkbox"
     },
     "printBackground": {
-      "title": "printBackground",
+      "title": "Include backgrounds in the PDF",
       "type": "boolean",
-      "description": "Include PDF background colors/images; runtime default true.",
+      "description": "Keep background colours and images in the PDF.",
       "editor": "checkbox"
     },
     "hideCookieBanners": {
-      "title": "hideCookieBanners",
+      "title": "Hide cookie banners",
       "type": "boolean",
-      "description": "Hide known CMP overlays and conservative cookie dialogs; does not grant consent. Default true.",
+      "description": "Hide common cookie and consent pop-ups before capture. Nothing is accepted on your behalf.",
       "editor": "checkbox"
     },
     "blockAds": {
-      "title": "blockAds",
+      "title": "Block ads",
       "type": "boolean",
-      "description": "Block a short maintained list of ad and analytics domains. Default false.",
+      "description": "Block common ad and tracking scripts for a cleaner, faster capture.",
       "editor": "checkbox"
     },
     "darkMode": {
-      "title": "darkMode",
+      "title": "Dark mode",
       "type": "boolean",
-      "description": "Request prefers-color-scheme dark. Default false.",
+      "description": "Ask the site for its dark colour scheme, if it has one.",
       "editor": "checkbox"
     },
     "scrollPage": {
-      "title": "scrollPage",
+      "title": "Load lazy images",
       "type": "boolean",
-      "description": "Bounded scrolling for lazy images before capture. Default true.",
+      "description": "Scroll through the page first so images that load on scroll are included.",
       "editor": "checkbox"
     }
   },
