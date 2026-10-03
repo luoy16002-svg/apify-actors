@@ -2,7 +2,7 @@
   "actorSpecification": 1,
   "name": "website-screenshots",
   "title": "Website Screenshots and PDFs",
-  "description": "Capture public pages with Chromium, device presets, banner hiding, lazy-image scrolling, element capture and optional PDF. Successful captures only in the dataset; diagnostics in OUTPUT.",
+  "description": "Full-page or viewport screenshots of any public URL, taken in Chromium. Device presets, cookie-banner hiding, lazy-image scrolling, single-element capture and an optional PDF of the same page. You pay only for successful captures.",
   "version": "1.0",
   "buildTag": "latest",
   "dockerfile": "../Dockerfile",

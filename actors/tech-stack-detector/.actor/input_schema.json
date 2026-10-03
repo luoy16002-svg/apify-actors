@@ -4,9 +4,9 @@
   "schemaVersion": 1,
   "properties": {
     "urls": {
-      "title": "URLs or domains",
+      "title": "Websites",
       "type": "array",
-      "description": "Up to 100 public websites. One homepage GET per site plus redirects and robots checks; duplicates removed.",
+      "description": "Up to 100 websites or domains, for example \"stripe.com\". Each site's homepage is checked once.",
       "editor": "stringList",
       "items": {
         "type": "string"
@@ -20,30 +20,30 @@
     "renderJs": {
       "title": "Render JavaScript",
       "type": "boolean",
-      "description": "Optional Chromium rendering and bounded reads of fingerprint global paths. Default false; requires more memory.",
+      "description": "Load the page in a browser to catch technologies that only appear after scripts run. Slower and uses more memory.",
       "editor": "checkbox"
     },
     "includeCategories": {
-      "title": "Include categories",
+      "title": "Only these categories",
       "type": "array",
-      "description": "Optional case-insensitive category names or numeric IDs as strings. Empty means all categories.",
+      "description": "Optional list such as \"CMS\", \"Analytics\" or \"Ecommerce\". Leave empty to report everything found.",
       "editor": "stringList",
       "items": {
         "type": "string"
       }
     },
     "maxConcurrency": {
-      "title": "Concurrent sites",
+      "title": "Sites at the same time",
       "type": "integer",
-      "description": "Runtime default 5 in HTTP mode; rendering is capped at 2.",
+      "description": "How many sites are checked in parallel. Default 5, or 2 when rendering JavaScript.",
       "editor": "number",
       "minimum": 1,
       "maximum": 10
     },
     "timeoutSeconds": {
-      "title": "Per-site timeout",
+      "title": "Timeout per site (seconds)",
       "type": "integer",
-      "description": "Runtime default 45; includes fetch/render and matching.",
+      "description": "How long one site may take. Default 45.",
       "editor": "number",
       "minimum": 5,
       "maximum": 180

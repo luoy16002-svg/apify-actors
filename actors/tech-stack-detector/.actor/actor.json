@@ -1,8 +1,8 @@
 {
   "actorSpecification": 1,
   "name": "tech-stack-detector",
-  "title": "Website Technology Stack Detector",
-  "description": "Identify public website technologies from a pinned WebAppAnalyzer fingerprint database. HTTP by default, optional Chromium, transparent confidence and version extraction, and category filters.",
+  "title": "Website Tech Stack Detector",
+  "description": "See what a website is built with: CMS, frameworks, analytics, CDN, hosting, payments and more. Checks headers, HTML and scripts against an open fingerprint set and reports confidence and versions. Fast HTTP mode, optional browser.",
   "version": "1.0",
   "buildTag": "latest",
   "dockerfile": "../Dockerfile",
