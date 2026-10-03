@@ -1,0 +1,227 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "type": "object",
+    "properties": {
+      "company": {
+        "type": "string"
+      },
+      "ats": {
+        "type": "string"
+      },
+      "jobId": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "board": {
+        "type": "string"
+      },
+      "region": {
+        "type": "string"
+      },
+      "department": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "team": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "location": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "allLocations": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "city": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "country": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "countryCode": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "workplaceType": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "employmentType": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "createdAt": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "updatedAt": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "type": "string"
+      },
+      "applyUrl": {
+        "type": "string"
+      },
+      "description": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "salaryCurrency": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "salaryInterval": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "sourceId": {
+        "type": "string"
+      },
+      "fetchedAt": {
+        "type": "string"
+      },
+      "isRemote": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "salaryMin": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "salaryMax": {
+        "type": [
+          "number",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "company",
+      "ats",
+      "jobId",
+      "title",
+      "board",
+      "region",
+      "department",
+      "team",
+      "location",
+      "allLocations",
+      "city",
+      "country",
+      "countryCode",
+      "workplaceType",
+      "employmentType",
+      "createdAt",
+      "updatedAt",
+      "sourceUrl",
+      "applyUrl",
+      "description",
+      "salaryCurrency",
+      "salaryInterval",
+      "sourceId",
+      "fetchedAt",
+      "isRemote",
+      "salaryMin",
+      "salaryMax"
+    ],
+    "additionalProperties": false
+  },
+  "views": {
+    "overview": {
+      "title": "Results",
+      "transformation": {
+        "fields": [
+          "company",
+          "ats",
+          "title",
+          "location",
+          "sourceUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "company": {
+            "label": "company",
+            "format": "text"
+          },
+          "ats": {
+            "label": "ats",
+            "format": "text"
+          },
+          "title": {
+            "label": "title",
+            "format": "text"
+          },
+          "location": {
+            "label": "location",
+            "format": "text"
+          },
+          "sourceUrl": {
+            "label": "sourceUrl",
+            "format": "text"
+          }
+        }
+      }
+    }
+  }
+}

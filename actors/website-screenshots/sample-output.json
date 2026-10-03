@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://example.com/",
+    "finalUrl": "https://example.com/",
+    "statusCode": 200,
+    "title": "Example Domain",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "preset": "desktop"
+    },
+    "fullPage": true,
+    "format": "png",
+    "byteSize": 41040,
+    "width": 1440,
+    "height": 900,
+    "capturedAt": "2026-10-03T05:35:25Z",
+    "warnings": [],
+    "key": "capture-a0f1ed89a1f1e61ad1410eb5.png",
+    "fileUrl": null,
+    "pdfKey": "capture-a0f1ed89a1f1e61ad1410eb5.pdf",
+    "pdfUrl": null,
+    "pdfByteSize": 61235
+  },
+  {
+    "url": "https://books.toscrape.com/",
+    "finalUrl": "https://books.toscrape.com/",
+    "statusCode": 200,
+    "title": "All products | Books to Scrape - Sandbox",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "preset": "desktop"
+    },
+    "fullPage": true,
+    "format": "png",
+    "byteSize": 631476,
+    "width": 1440,
+    "height": 2549,
+    "capturedAt": "2026-10-03T05:35:27Z",
+    "warnings": [],
+    "key": "capture-1a5cf798ae8d60038ee8f6fe.png",
+    "fileUrl": null,
+    "pdfKey": "capture-1a5cf798ae8d60038ee8f6fe.pdf",
+    "pdfUrl": null,
+    "pdfByteSize": 348392
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media_en",
+    "finalUrl": "https://commission.europa.eu/news-and-media_en",
+    "statusCode": 200,
+    "title": "News and media - European Commission",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "preset": "desktop"
+    },
+    "fullPage": true,
+    "format": "png",
+    "byteSize": 171480,
+    "width": 1440,
+    "height": 2069,
+    "capturedAt": "2026-10-03T05:35:32Z",
+    "warnings": [
+      "Some resources were blocked by policy: {\"robots_unknown\": 2, \"write_request_blocked\": 1}"
+    ],
+    "key": "capture-4c71bb1c5f5a62aea41c9c2e.png",
+    "fileUrl": null,
+    "pdfKey": "capture-4c71bb1c5f5a62aea41c9c2e.pdf",
+    "pdfUrl": null,
+    "pdfByteSize": 128359
+  }
+]

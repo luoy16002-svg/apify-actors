@@ -1,0 +1,7 @@
+storage/
+qa/
+NOTES-*.md
+verification-result.json
+live-test-result.json
+__pycache__/
+.pytest_cache/

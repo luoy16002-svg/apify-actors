@@ -1,0 +1,19 @@
+{
+    "actorSpecification": 1,
+    "name": "ats-jobs",
+    "title": "Career Page Jobs - Greenhouse, Lever, Ashby, Workable",
+    "description": "Open jobs from Greenhouse, Lever, Ashby, Workable, Recruitee and Personio boards in one table. Paste career-page links or a company's own careers page; filter by title, location, remote and date. Published salaries included.",
+    "version": "1.0",
+    "buildTag": "latest",
+    "dockerfile": "../Dockerfile",
+    "dockerContextDir": "..",
+    "readme": "../README.md",
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    },
+    "defaultMemoryMbytes": 256,
+    "minMemoryMbytes": 256,
+    "maxMemoryMbytes": 1024
+}

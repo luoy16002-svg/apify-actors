@@ -1,0 +1,138 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "type": "object",
+    "properties": {
+      "url": {
+        "type": "string"
+      },
+      "finalUrl": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "format": {
+        "type": "string"
+      },
+      "key": {
+        "type": "string"
+      },
+      "fileUrl": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "capturedAt": {
+        "type": "string"
+      },
+      "pdfKey": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "pdfUrl": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "statusCode": {
+        "type": "integer"
+      },
+      "byteSize": {
+        "type": "integer"
+      },
+      "width": {
+        "type": "integer"
+      },
+      "height": {
+        "type": "integer"
+      },
+      "pdfByteSize": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "fullPage": {
+        "type": "boolean"
+      },
+      "viewport": {
+        "type": "object"
+      },
+      "warnings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "url",
+      "finalUrl",
+      "title",
+      "format",
+      "key",
+      "fileUrl",
+      "capturedAt",
+      "pdfKey",
+      "pdfUrl",
+      "statusCode",
+      "byteSize",
+      "width",
+      "height",
+      "pdfByteSize",
+      "fullPage",
+      "viewport",
+      "warnings"
+    ],
+    "additionalProperties": false
+  },
+  "views": {
+    "overview": {
+      "title": "Results",
+      "transformation": {
+        "fields": [
+          "url",
+          "title",
+          "format",
+          "width",
+          "height",
+          "fileUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "url": {
+            "label": "url",
+            "format": "text"
+          },
+          "title": {
+            "label": "title",
+            "format": "text"
+          },
+          "format": {
+            "label": "format",
+            "format": "text"
+          },
+          "width": {
+            "label": "width",
+            "format": "text"
+          },
+          "height": {
+            "label": "height",
+            "format": "text"
+          },
+          "fileUrl": {
+            "label": "fileUrl",
+            "format": "text"
+          }
+        }
+      }
+    }
+  }
+}

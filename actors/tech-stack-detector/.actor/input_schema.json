@@ -1,0 +1,55 @@
+{
+  "title": "Website Technology Stack Detector",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "urls": {
+      "title": "URLs or domains",
+      "type": "array",
+      "description": "Up to 100 public websites. One homepage GET per site plus redirects and robots checks; duplicates removed.",
+      "editor": "stringList",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "maxItems": 100,
+      "prefill": [
+        "https://www.python.org/"
+      ]
+    },
+    "renderJs": {
+      "title": "Render JavaScript",
+      "type": "boolean",
+      "description": "Optional Chromium rendering and bounded reads of fingerprint global paths. Default false; requires more memory.",
+      "editor": "checkbox"
+    },
+    "includeCategories": {
+      "title": "Include categories",
+      "type": "array",
+      "description": "Optional case-insensitive category names or numeric IDs as strings. Empty means all categories.",
+      "editor": "stringList",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maxConcurrency": {
+      "title": "Concurrent sites",
+      "type": "integer",
+      "description": "Runtime default 5 in HTTP mode; rendering is capped at 2.",
+      "editor": "number",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "timeoutSeconds": {
+      "title": "Per-site timeout",
+      "type": "integer",
+      "description": "Runtime default 45; includes fetch/render and matching.",
+      "editor": "number",
+      "minimum": 5,
+      "maximum": 180
+    }
+  },
+  "required": [
+    "urls"
+  ]
+}

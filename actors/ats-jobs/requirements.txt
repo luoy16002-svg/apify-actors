@@ -1,0 +1,5 @@
+apify==3.4.1
+httpx==0.28.1
+Protego==0.7.0
+beautifulsoup4==4.14.2
+defusedxml==0.7.1

@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-03T05:42:42.230808+00:00",
+  "unitTestExitCode": 0,
+  "officialActorInputDatasetOutputMetaSchemasValid": true,
+  "sampleRows": 3,
+  "qaRowsValidated": 996,
+  "duplicates": 0,
+  "sourceHashes": {
+    "src\\common.py": "c4a663e49025a6e1a975ac5ff33e964678b3e2d66342077ef4f5164cccf7b5a3",
+    "src\\main.py": "11642639ddb57c3de4df46dd9671564e4c3d9bcfc7e8247905a50c652b7e0c15",
+    "src\\net.py": "74b4a60f8d5e877a38a077d7c1c50ad1c5c063fdb4677dd3782d86e0c71521dc",
+    "src\\parser.py": "bcb707a83fc0b4322ff5585c482bb4ec4d8fc593257c5c817e32dbe51d8b266d",
+    "src\\providers.py": "5a4f656f768581eb63d6fc32eb53ef3e4784d03d23a3c9ded60ea70b119b2eed",
+    "src\\targets.py": "f8c7f7232bbd0d3097df65236ccac95d7ec00b7ce06ce32dfcd7b619039cbc6e",
+    "src\\__init__.py": "282697903b8d9a72c0df36c576d41ee0cbf5b27c46f8a39b9f60a6e3bbf6f2f1",
+    "src\\__main__.py": "7bda03e4ae4434dc926ddcf37526fa585c9120b7089f071b3c074193dad0a09e"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Results",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Successful results",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?format=json&clean=true"
+    },
+    "summary": {
+      "type": "string",
+      "title": "Run summary and failures",
+      "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/OUTPUT"
+    }
+  }
+}

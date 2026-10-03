@@ -1,0 +1,203 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "type": "object",
+    "properties": {
+      "url": {
+        "type": "string"
+      },
+      "finalUrl": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "fingerprintCommit": {
+        "type": "string"
+      },
+      "fingerprintLicense": {
+        "type": "string"
+      },
+      "fetchedAt": {
+        "type": "string"
+      },
+      "statusCode": {
+        "type": "integer"
+      },
+      "technologies": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "confidence": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "categories": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "name": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "website": {
+              "type": "string"
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "name",
+            "version",
+            "confidence",
+            "categories",
+            "website",
+            "evidence"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "cms": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "ecommerce": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "analytics": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "frameworks": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "cdn": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "hosting": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "programmingLanguages": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "warnings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "rendered": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "url",
+      "finalUrl",
+      "status",
+      "fingerprintCommit",
+      "fingerprintLicense",
+      "fetchedAt",
+      "statusCode",
+      "technologies",
+      "cms",
+      "ecommerce",
+      "analytics",
+      "frameworks",
+      "cdn",
+      "hosting",
+      "programmingLanguages",
+      "warnings",
+      "rendered"
+    ],
+    "additionalProperties": false
+  },
+  "views": {
+    "overview": {
+      "title": "Results",
+      "transformation": {
+        "fields": [
+          "url",
+          "status",
+          "cms",
+          "ecommerce",
+          "frameworks",
+          "cdn"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "url": {
+            "label": "url",
+            "format": "text"
+          },
+          "status": {
+            "label": "status",
+            "format": "text"
+          },
+          "cms": {
+            "label": "cms",
+            "format": "text"
+          },
+          "ecommerce": {
+            "label": "ecommerce",
+            "format": "text"
+          },
+          "frameworks": {
+            "label": "frameworks",
+            "format": "text"
+          },
+          "cdn": {
+            "label": "cdn",
+            "format": "text"
+          }
+        }
+      }
+    }
+  }
+}
